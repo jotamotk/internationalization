@@ -1,6 +1,6 @@
 export default {
   // TODO 中文
-  unResolvedData: 'UnResolved Data',
+  unResolvedData: '未解决的数据',
   createDataset: '新建数据集',
   datasetName: '数据集名称',
   datasetType: '数据集类型',

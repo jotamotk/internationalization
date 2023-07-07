@@ -29,10 +29,10 @@ export default {
   addDate: '添加时间',
   Status: '状态',
   // TODO 中文
-  Resolved: 'Resolved',
-  Unresolved: 'Unresolved',
-  ViolationOfRules: 'Violation of rules',
-  withAnyViolations: 'with Any violations',
+  Resolved: '解决的',
+  Unresolved: '未解决的',
+  ViolationOfRules: '触犯的规则',
+  withAnyViolations: '触犯任何规则',
 
   groundTruths: '人工结果',
   annotationCount: '标注总数',
