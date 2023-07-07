@@ -1,0 +1,207 @@
+export default {
+  forceLogoutTip: 'You have been forced to log out.',
+  tokenChangeTip: 'Your user identity has changed, click ok to redirect to the homepage',
+  versionTipTitle: '🎆Version updated',
+  versionTipContent:
+    'Our system has been updated to the latest version. Please refresh the page to continue using it. Thank you.',
+  api: {
+    operationFailed: 'Operation failed',
+    errorTip: 'Error Tip',
+    errorMessage: 'The operation failed, the system is abnormal!',
+    timeoutMessage: 'Login timed out, please login again!',
+    apiTimeoutMessage: 'The request timed out, please refresh the page and try again!',
+    apiRequestFailed: 'The request failed, please try again later!',
+    networkException: 'network anomaly',
+    networkExceptionMsg: 'The network is abnormal. Please check! ',
+
+    errMsg401: 'Login timeout. Please login.',
+    errMsg403: 'The user is authorized, but access is forbidden!',
+    errMsg404: 'Network request error, the resource was not found!',
+    errMsg405: 'Network request error, request method not allowed!',
+    errMsg408: 'Network request timed out!',
+    errMsg500: 'Server error, please contact the administrator!',
+    errMsg501: 'The network is not implemented!',
+    errMsg502: 'Network Error!',
+    errMsg503: 'The service is unavailable, the server is temporarily overloaded or maintained!',
+    errMsg504: 'Network timeout!',
+    errMsg505: 'The http version does not support the request!',
+    disbandTeamTips: 'Team not exist',
+    userExistTips: 'You were removed from the team',
+  },
+  app: {
+    logoutTip: 'Reminder',
+    logoutMessage: 'Confirm to exit the system?',
+    menuLoading: 'Menu loading...',
+  },
+  errorLog: {
+    tableTitle: 'Error log list',
+    tableColumnType: 'Type',
+    tableColumnDate: 'Time',
+    tableColumnFile: 'File',
+    tableColumnMsg: 'Error message',
+    tableColumnStackMsg: 'Stack info',
+
+    tableActionDesc: 'Details',
+
+    modalTitle: 'Error details',
+
+    fireVueError: 'Fire vue error',
+    fireResourceError: 'Fire resource error',
+    fireAjaxError: 'Fire ajax error',
+
+    enableMessage: 'Only effective when useErrorHandle=true in `/src/settings/projectSetting.ts`.',
+  },
+  exception: {
+    backLogin: 'Back Login',
+    backHome: 'Back Home',
+    subTitle403: "Sorry, you don't have access to this page.",
+    subTitle404: 'Sorry, the page you visited does not exist.',
+    subTitle500: 'Sorry, the server is reporting an error.',
+    noDataTitle: 'No data on the current page.',
+    networkErrorTitle: 'Network Error',
+    networkErrorSubTitle:
+      'Sorry，your network connection has been disconnected. Please check your network!',
+  },
+  lock: {
+    unlock: 'Unlock',
+    alert: 'Lock screen password error',
+    backToLogin: 'Back to login',
+    entry: 'Enter the system',
+    placeholder: 'Please enter the lock screen password or user password',
+  },
+  login: {
+    updatePwd: 'Change Password',
+    updatePwdTips: 'To ensure the security of your account,please change your password.',
+    confirmUpdage: 'Confirm update',
+    jump: 'Skip',
+    backSignIn: 'Back sign in',
+    signInFormTitle: 'Sign In',
+    signUpFormTitle: 'Sign up',
+    forgetFormTitle: 'Reset password',
+    joinTeamTitle: 'Input team ID',
+    notAMember: 'Not a member',
+
+    signInTitle: 'Backstage management system',
+    signInDesc: 'Enter your personal details and get started!',
+    policy: 'I agree to the xxx Privacy Policy',
+    scanSign: `scanning the code to complete the login`,
+
+    backButton: 'Back',
+    loginButton: 'Login',
+    registerButton: 'Sign Up',
+    resetPwdButton: 'Submit',
+    returnButton: 'Return',
+    continueButton: 'Continue',
+    joinButton: 'Join',
+    rememberMe: 'Remember me',
+    forgetPassword: 'Forget Password?',
+    otherSignIn: 'Sign in with',
+
+    passwordValidationError: 'Incorrect password format',
+
+    // notify
+    loginSuccessTitle: 'Login successful',
+    loginSuccessDesc: 'Welcome back',
+
+    // placeholder
+    accountPlaceholder: 'Please input User Name',
+    emailPlaceholder: 'Please input Email',
+    passwordPlaceholder: 'Enter a password',
+    smsPlaceholder: 'Please input sms code',
+    mobilePlaceholder: 'Please input mobile',
+    policyPlaceholder: 'Register after checking',
+    diffPwd: 'Passwords didn’t match. Try again.',
+    teamNamePlaceholder: 'Please Input team Name',
+    joinTeamPlaceholder: 'Please Input team ID',
+
+    userName: 'User Name',
+    password: 'Password',
+    newPassword: 'New Password',
+    confirmPassword: 'Confirm',
+    email: 'Email',
+    teamName: 'Team Name',
+    team: 'Team',
+    phoneNumber: 'Phone Number',
+    account: 'Account',
+
+    loginTips: 'Don’t have an account?',
+    signUpTips: 'Already have an account?',
+    forgetPwdTips: 'Please enter your email to reset password',
+    resetPwdTips: 'Reset password of',
+    teamIDCopiedTips: 'Team ID has been copied to clipboard!',
+
+    resetSuccessTitle: 'Password has been reset!',
+    resetSuccessTips: 'Return to login page in 5 S',
+    joinSuccessFeedDescription: 'Join request has been sent.',
+    joinSuccessFeedDescription2: 'Please contact team manager for approval.',
+    createSuccessFeedDescription: 'Has been created.',
+    createSuccessFeedDescription2: 'Your team ID is',
+    signupSuccessFeedDescription: 'Registration almost done! Check your email！',
+    signupSuccessFeedDescription2: 'Already approved?',
+    pwdTips: 'Password must contain:',
+    pwdRules1: '8-64 words',
+    pwdRules2: 'Number',
+    pwdRules3: 'Letter',
+    agreeToTips: 'Registration means that I agree to the BasicAI',
+    terms: 'Terms',
+    privacyPolicy: 'Privacy Policy',
+    loginIntroduct:
+      "We are committed to building the world's most seamless training data platform to help your team collect, annotate, and deploy custom ML data sets at scale.",
+    alreadyHaveAccountError:
+      'You already have an account associated with this email. Please log in or reset your password if you forget it.',
+    loginError:
+      "It looks like you've already got an account . Log in instead or reset your password in case you've forgotten it",
+    signInWithGoogle: 'Sign in with Google',
+    signUpTitle: 'Create an account',
+
+    loginReminderTitle: 'Log-in Reminder',
+    loginReminderContent:
+      'The account has already been logged in.Repeated login will make the other party go offline. Continue to log in ?',
+    emailResentSuccess: 'Email resent successfully',
+
+    licenseExpiredTitle: 'License has expired',
+    licenseExpiredText:
+      'Your Basic AI license has expired. To continue collaborating with us, please contact your system administrator and request a renewal of the license. Thank you.',
+    licenseExpire: {
+      notice: 'Notice',
+      expired: 'Your license has been expired on {date}. Pease contact administrators to renew.',
+    },
+    forget: {
+      forgetPassword: ' Forget password ?',
+      notAMember: 'Not a member?',
+      resubmitEmail:
+        'This link has been used to change your password. Please resubmit your new email address',
+      sendToTheEmail: 'We will send the reset password link to the following email address :',
+      Oops: 'Oops!',
+      wrongEmail: 'wrong email',
+      resend: 'Resend',
+    },
+  },
+  team: {
+    companyName: 'Company Name',
+    country: 'Country and Region',
+    businessEmail: 'Business Email',
+    verifyCode: 'Verify Code',
+    verify: 'Verify',
+    continue: 'Continue',
+    manageTeams: 'Manage Teams',
+    upgradeNow: 'Upgrade Now',
+
+    businessTip:
+      'Please note that each domain in the enterprise email system can only create up to 5 teams for free.',
+    maxTeam:
+      'You seems have reached the maximum limit of 5 teams for your enterprise email. To create more teams, please upgrade to our premium plan or delete existing teams to free up space.',
+    validEmail: 'Please enter a valid email address.',
+    enterpriseName: 'Please enter Enterprise email',
+    verifyExpired: 'The verification code has expired. Please request a new code and try again.',
+    verifyError: 'Oops! The verification code you entered is incorrect. Please try again.',
+    verifySent: 'A verification code has been sent to your email,please enter the code below',
+    verifyEmail1: 'Please include @ in your email address',
+    verifyEmail2: 'Please enter the content before/after “{value}”',
+  },
+  contact: {
+    hey: 'Hey there!',
+    tip: "We've got a fun and friendly Slack community where you can communicate with us, share your ideas, and provide feedback. Click the button below to be redirected to our Slack channel. We'd love to have you onboard!",
+    takeMeToSlack: 'Take me to Slack!',
+  },
+};
