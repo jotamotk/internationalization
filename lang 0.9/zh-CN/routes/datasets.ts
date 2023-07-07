@@ -6,13 +6,13 @@ export default {
   overview: '概览',
   ontology: '本体',
   // TODO 中文
-  QA: 'QA',
-  QualityCheckJobs: 'QualityCheckJobs',
+  QA: '质检',
+  QualityCheckJobs: '质量检测作业',
 
-  report: 'Report',
-  createRun: 'Create a Quality Check',
+  report: '报告',
+  createRun: '创建一个质量检测作业',
 
-  Rules: 'Rules',
+  Rules: '规则',
 
-  trash: 'Trash',
+  trash: '垃圾箱',
 };
