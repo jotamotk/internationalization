@@ -45,7 +45,7 @@ export default {
       '在3D点云数据中，可以根据目标对象与零点的范围和高度来进行筛选。这个标准用于确定是否违反了规则。',
   },
   QCJConfigObject: {
-    QCbasics: '质量检查基础',
+    QCbasics: '质量检查基础信息',
     QCName: '质量检查名称',
     ScoreWeight: '得分权重',
     Average: '平均',
