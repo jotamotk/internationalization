@@ -3,7 +3,7 @@ export default {
   header: {
     // user dropdown
     dropdownItemDoc: 'Document',
-    dropdownItemLoginOut: 'Log Out',
+    dropdownItemLoginOut: 'Log out',
 
     tooltipErrorLog: 'Error log',
     tooltipLock: 'Lock screen',

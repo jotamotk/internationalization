@@ -98,7 +98,7 @@ export default {
 
   warning: 'Warning',
 
-  authority: "You don't have permission, please contact admin",
+  authority: "You don't have the permission, please contact admin",
   updateSuccess: 'Update Success',
   pwdDiffError: 'The two passwords entered are different',
 
