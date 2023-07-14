@@ -190,14 +190,14 @@ export default {
     // TODO 中文
     image: {
       segmentationDataAccuracy: {
-        complete: 'Total Number of Accurate Data in ACC stage/ Total Number of Data.',
-        annotationStage: 'Total Number of Accurate Data/ Total Number of Data.',
-        reviewStage: 'Total Number of Accurate Data/ Total Number of Data.',
+        complete: 'ACC阶段准确数据总数 / 数据总数',
+        annotationStage: '准确数据总数 / 数据总数',
+        reviewStage: '准确数据总数 / 数据总数',
       },
       segmentationObjectAccuracy: {
-        complete: '1 - Number of Wrong Objects in ACC/ Total Number of Created Objects.',
-        annotationStage: '1 - Number of Wrong Objects/ Total Number of Created Objects.',
-        reviewStage: '1 - Number of Wrong Objects/ Total Number of Reviewed Objects.',
+        complete: '1 - 错误对象数量 / 创建的对象总数',
+        annotationStage: '1 - 错误对象数量 / 创建的对象总数',
+        reviewStage: '1 - 错误对象数量 / 审核的对象总数',
       },
     },
   },

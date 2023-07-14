@@ -27,7 +27,7 @@ export default {
   hasExist: '已经存在。请输入不同的名称。',
   Instruction: '说明',
   // TODO 中文
-  QAOptional: 'QA Optional',
+  QAOptional: '质检(可选)',
   // 搜索字段
   sort: {
     name: '名称',
