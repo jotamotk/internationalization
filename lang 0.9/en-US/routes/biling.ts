@@ -1,3 +1,3 @@
 export default {
-  biling: 'Biling',
+  biling: 'Billing',
 };
