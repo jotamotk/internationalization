@@ -86,7 +86,7 @@ export default {
     requirement: '要求',
     description: '描述',
     dimension: '维度',
-    mandatory: '强制性',
+    mandatory: '强制',
     warning: '警告',
     info: '信息',
     completeness: '完整性',
@@ -101,7 +101,7 @@ export default {
     attributes: '属性',
     trackingObjects: '追踪对象',
 
-    mandatoryTip: '违反强制性规则将阻止用户保存或提交数据',
+    mandatoryTip: '违反强制规则将阻止用户保存或提交数据',
   },
   jobsList: {
     JobNumber: '作业编号',
