@@ -188,8 +188,8 @@ export default {
     selectDataset: '请选择一个数据集',
     addData: '请添加一个数据',
     // TODO 中文
-    createDataset: 'Please create some dataset',
-    addDataToTemplate: 'Please add some data to task from this {dataset}',
+    createDataset: '请创建一些数据集',
+    addDataToTemplate: '请从此 {dataset} 中添加一些数据到任务中',
   },
   error: {
     classRequired: '请选择一个标签或分类',
@@ -201,7 +201,7 @@ export default {
     ontology: '本体',
     instruction: '说明',
     workflow: '工作流',
-    QaOptional: 'QA Optional',
+    QaOptional: '质检(可选)',
   },
   setting: {
     classTips: '本体上的更改不会自动应用于已标注的数据。已标注的数据需要手工修复。',
@@ -424,16 +424,15 @@ export default {
     stageStatus: '阶段状态',
     workingByOthers: '其他人正在操作',
     lock: {
-      occupiedBy: 'Occupied by',
-      occupiedDataCount: 'Occupied Data Count',
-      selectRecord: 'please select a record',
+      occupiedBy: '被占用者',
+      occupiedDataCount: '占用数据数量',
+      selectRecord: '请选择一条记录',
     },
-    addDataSuccessfully: 'Add data successfully',
+    addDataSuccessfully: '成功添加数据',
     remove: {
-      removeData:
-        "You are going to remove {num} data from the task. Once removed, they'll no longer be worked in the task.",
-      removeSuccess: '{num} data removed from the task.',
-      removeFailure: "{num} failed, because they're already claimed.",
+      removeData: "您将要从任务中移除 {num} 条数据。一旦移除，它们将不再在任务中工作。",
+      removeSuccess: '已从任务中移除 {num} 条数据。',
+      removeFailure: '已失败 {num} 条数据，因为它们已被认领。',
     },
   },
   taskSetting: {
