@@ -1,0 +1,63 @@
+const en = {
+  title_rect1: 'Create Rect',
+  title_create2DBox: 'Create Box(2D)',
+  title_create3DBox: 'Create Box(3D)(F)',
+  title_translate: 'Translate(G)',
+  title_track: 'Track Line',
+  title_filter2D: 'Filter other object(B)',
+  title_model: 'Run Model',
+  title_comment: 'Create comment(F)',
+  title_projection: 'Projection',
+  title_measure: 'Measuring tool',
+  title_reProjection: 'Re-projection',
+
+  title_basic: 'Basic',
+  title_3d: '3D',
+  title_2d: '2D',
+  title_ok: 'Ok',
+  title_2dBox: '2D Box',
+  title_2dRect: '2D Rect',
+
+  title_contour: 'Contour(C)',
+  title_contourSetting: 'Contour Setting',
+  title_contourType: 'Contour Type',
+  title_checkMiss: 'Detect Unlabeled Points',
+  title_helper: 'Hint Box',
+  title_createSegment: 'Create Seg.(F)',
+  title_addSegment: 'Add point(A)',
+  title_subSegment: 'Remove point(D)',
+  title_finish: 'Finish(Tab)',
+  title_single: 'Single display(B)',
+  title_cuboid: 'Cuboid',
+
+  title_projectSetting: 'Projection Setting',
+  title_boxSetting: 'Create Box(3D) Setting',
+  title_deNoise: 'Denoise',
+  title_projectType: 'Projection Type',
+  title_projectAuto: 'Auto Projection',
+
+  title_3d_default: 'Manual',
+  title_3d_ai: 'AI-assisted',
+  title_info: 'Info',
+
+  model_title: 'AI Annotation Setting',
+  model_name: 'Model',
+  model_predict: 'Predict all in Model',
+  model_select_all: 'Select all',
+  model_unselect_all: 'Unselect all',
+  model_confidence: 'Confidence',
+  model_reset: 'Reset',
+  map_classes: 'Map Classes',
+  model_classes: 'Model Classes',
+  title_setting: 'Setting',
+  model_add: 'Add Results',
+  model_run: 'Apply and Run',
+  warn_select3d: 'Please Select a 3D Result!',
+  warn_selectModel: 'Please choose Model!',
+  warn_selectClass: 'Select at least one Class!',
+  error_RunModel: 'Model Run Error',
+};
+
+export type ILocale = typeof en;
+
+export { en };
