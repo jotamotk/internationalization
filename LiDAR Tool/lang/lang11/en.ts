@@ -12,7 +12,7 @@ const en = {
     'instances-title': 'Instances',
     'advanced-title': 'Advanced',
     'copy-title': 'Copy',
-    'copy-success': 'Copied',
+    'copy-success': 'Copied Successfuly',
     'no-data': 'No Data',
     // class
     'class-title': 'Class',
