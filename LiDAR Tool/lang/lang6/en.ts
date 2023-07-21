@@ -17,16 +17,16 @@ const en = {
     // class
     'msg-delete-title': 'Delete',
     'msg-cancel-title': 'Cancel',
-    'msg-class-delete': 'Delete all {{n}} {{name}} objects?',
+    'msg-class-delete': 'Are you sure you want to delete all {{n}} {{name}} objects?',
     'msg-delete-all':
         'You are going to delete {{n}} objects in the whole Scene ({{f}} frames in total)',
     'msg-delete-all-current': 'You are going to delete {{n}} objects in Frame {{f}}',
-    'msg-track-delete': 'Delete {{n}} objects in Track Object {{name}}?',
+    'msg-track-delete': 'Are you sure you want to delete {{n}} objects in Track Object {{name}}?',
 
     'result-pre': 'Results',
     'no-project': 'No Project',
     'no-object': 'No Object',
-    'has-not-true': 'Has Not True-Value',
+    'has-not-true': 'No True-Value',
     'all-true': 'All True-Value',
     'result-list': 'Results List',
     'show-object-all': 'Show All Frames’ Results',
