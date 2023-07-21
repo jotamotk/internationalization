@@ -14,7 +14,7 @@ const en = {
   title_basic: 'Basic',
   title_3d: '3D',
   title_2d: '2D',
-  title_ok: 'Ok',
+  title_ok: 'OK',
   title_2dBox: '2D Box',
   title_2dRect: '2D Rect',
 

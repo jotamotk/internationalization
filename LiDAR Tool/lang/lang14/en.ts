@@ -17,12 +17,12 @@ const en = {
   // model
   'load-track': 'Tracking....',
   'track-no-data': "No Tracking object found, please check your objects' location and direction",
-  'track-error': 'Track Error',
-  'track-ok': 'Track Success',
-  btnOk: 'Ok',
+  'track-error': 'Failed to track objects',
+  'track-ok': 'Tracked objects successfully',
+  btnOk: 'OK',
   btnSave: 'Save',
   btnConfirm: 'Confirm',
-  btnConfirmExit: 'Confirm and exit',
+  btnConfirmExit: 'Confirm and Exit',
   btnCancel: 'Cancel',
   btnDelete: 'Delete',
   btnDiscard: 'Discard',
@@ -74,7 +74,7 @@ const en = {
   //
   'msg-link-hidden': 'Linked object is hidden!',
   'msg-link-deleted': 'Linked object is deleted!',
-  'title-more': 'more',
+  'title-more': 'More',
 
   'verify-step1':
     'Select a point in the point cloud and modify its corresponding projection in the camera image. Each image should have at least three points that are associated with the point cloud result.',
