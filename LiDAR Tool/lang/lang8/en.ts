@@ -16,9 +16,9 @@ const en = {
     // class
     'msg-delete-title': 'Delete',
     'msg-cancel-title': 'Cancel',
-    'msg-class-delete': 'Delete all {{n}} {{name}} objects?',
-    'msg-delete-all': 'Delete all {{n}} objects?',
-    'msg-track-delete': 'Delete {{n}} objects in Track Object {{name}}?',
+    'msg-class-delete': 'Are you sure you want to delete all {{n}} {{name}} objects?',
+    'msg-delete-all': 'Are you sure you want to delete all {{n}} objects?',
+    'msg-track-delete': 'Are you sure you want to delete {{n}} objects in Track Object {{name}}?',
 
     'result-pre': 'Results ',
     'no-project': 'No Project',

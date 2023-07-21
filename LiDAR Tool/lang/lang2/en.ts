@@ -8,14 +8,14 @@ const en = {
   setting_pointview: 'Points',
   setting_backgroundColor: 'Background Color',
   setting_pointsize: 'Size',
-  setting_autosize: 'Auto',
+  setting_autosize: 'Auto-size',
   setting_pointreset: 'Reset',
   setting_colorreset: 'Reset Color',
   setting_resultview: 'Objects',
-  setting_showlabel: 'Show Tags(M)',
-  setting_showannotate: 'Show Annotate(Shift+H)',
-  setting_showtrajectory: 'Show Trajectory(P)',
-  setting_comments: 'Show Comments(Shift+H)',
+  setting_showlabel: 'Show Tags (M)',
+  setting_showannotate: 'Show Annotate (Shift+H)',
+  setting_showtrajectory: 'Show Trajectory (P)',
+  setting_comments: 'Show Comments (Shift+H)',
   setting_pointcolor: 'Color',
   setting_colorheight: 'Height',
   setting_colorvelocity: 'Speed',
@@ -31,16 +31,16 @@ const en = {
   info_pointvisible: 'Visible Points',
 
   utility: 'Utility',
-  measure: 'Distance Measure(N)',
+  measure: 'Distance Measure (N)',
   measure_add: 'Add a Measure',
-  measure_radius: 'Radius(m)',
+  measure_radius: 'Radius (m)',
 
-  msg_ground: 'The ground is the minimum value of the point cloud color range',
-  msg_ground_model: 'The ground height is determined by the model and cannot be adjusted',
+  msg_ground: 'The minimum color value in the point cloud represents the ground',
+  msg_ground_model: 'The ground height is determined by the model and is not adjustable',
 
   btn_msg: 'Info',
   btn_setting: 'Setting',
-  title_link: 'linkage pointer(L)',
+  title_link: 'Linkage Pointer (L)',
 };
 export type ILocale = typeof en;
 export { en };

@@ -12,7 +12,7 @@ const en = {
     reset: 'Reset',
     'no-attrs': 'No Attribute',
     'height-range': 'Height Range',
-    'invalid-label': 'Class Invalid',
+    'invalid-label': 'Invalid Class',
     'info-miss-point': 'Unlabeled Points',
 };
 export type ILocale = typeof en;
