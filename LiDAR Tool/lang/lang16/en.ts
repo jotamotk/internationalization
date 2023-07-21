@@ -10,8 +10,8 @@ const en = {
   UNKNOWN: 'Unknown',
   thisFrame: 'This Frame',
 
-  open: 'Open({{n}})',
-  resolved: 'Resolved({{n}})',
+  open: 'Open ({{n}})',
+  resolved: 'Resolved ({{n}})',
   resolveAll: 'Resolve All',
   type: 'Type',
   object: 'Object',
@@ -20,7 +20,7 @@ const en = {
   unresolved: 'Unresolved',
   all: 'All',
   you: 'You',
-  viewAll: 'View All({{n}})',
+  viewAll: 'View All ({{n}})',
   selectAll: 'Select All',
   acceptance: 'Need Acceptance',
 
@@ -38,17 +38,17 @@ const en = {
   filterByStage: 'Filter By Stage',
   filterByType: 'Filter By Error Type',
 
-  sureDeleteMsg: 'Are you sure to delete?',
+  sureDeleteMsg: 'Are you sure you want to delete?',
 
   resultsSource: 'Load Source',
   editSource: 'Editing Source',
-  msgResolveAll: 'Are you sure to resolve all comments?',
+  msgResolveAll: 'Are you sure you want to resolve all comments?',
 
   msgSwitchInstance: 'Switched to view/edit Instance',
   msgSwitchSegmentation: 'Switched to view/edit Segmentation',
-  msgTotalN: 'Comment points:{{n}}',
-  msgErrN: 'Comment error points:{{n}}',
-  btnNoRepeat: 'No duplicate',
+  msgTotalN: 'Comment points: {{n}}',
+  msgErrN: 'Comment error points: {{n}}',
+  btnNoRepeat: 'No Duplicate',
 
   labelWithoutTask: 'Without Task',
   labelGroundTruth: 'Ground Truth',

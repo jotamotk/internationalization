@@ -25,8 +25,8 @@ const en = {
     // SampleMsg
     msgSample:
         "You're now viewing a frame that is not sampled. Any comments in this frame will not be counted in Sampling Accuracy.",
-    infoPointPercent: 'Segmentation:{{n}}% by Point',
-    infoObjectPercent: 'Instance:{{n}}% by Object',
+    infoPointPercent: 'Segmentation: {{n}}% by Point',
+    infoObjectPercent: 'Instance: {{n}}% by Object',
     sampleFilterTitle: 'Accuracy in',
     // Status
     titleAnnotate: 'Annotate',

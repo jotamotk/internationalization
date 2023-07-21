@@ -28,7 +28,7 @@ const zh: ILocale = {
     msgSample: '你正在查看未被抽样的帧。这一帧打的评论不会计入抽样准确率。',
     infoPointPercent: '分割:{{n}}% 通过点',
     infoObjectPercent: '实体:{{n}}% 通过对象',
-    sampleFilterTitle: 'Accuracy in',
+    sampleFilterTitle: '准确率在',
     // Status
     titleAnnotate: '标注',
     titleReview: '审核',
