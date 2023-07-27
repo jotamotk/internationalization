@@ -77,7 +77,8 @@ export default {
 
     hide: 'Hide',
     hideTitle: 'Your data indices are updated successfully',
-    hideDes: 'Your data indices have been successfully updated. Now you can run your quality check tasks.',
+    hideDes:
+      'Your data indices have been successfully updated. Now you can run your quality check tasks.',
   },
   rulesList: {
     ifEnable: 'If enable',
@@ -146,7 +147,8 @@ export default {
     dataQualityBreakdown: 'Data Quality Breakdown',
     delete: {
       deleteReport: 'Delete Report',
-      sureDelete: 'Are you sure you want to delete the selected items or series? This action is irreversible.',
+      sureDelete:
+        'Are you sure you want to delete the selected items or series? This action is irreversible.',
     },
     reportAreNotAvailable: 'Report is not available',
     reportTip:

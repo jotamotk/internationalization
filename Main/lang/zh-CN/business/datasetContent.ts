@@ -1,10 +1,17 @@
 export default {
+  MyCloud: 'My Cloud',
+  BucketName: 'Bucket name',
+  CloudTips: 'Please choose a cloud storage provider and select a path.',
+  CloudPathTips: 'Please click on the file below to obtain a path',
+  pathPlaceholder: 'Please click on the file below to obtain a path',
+  ViewStorage: 'View Storage',
+  name: 'Name',
   url: 'URL',
   data: '数据',
   // TODO 中文
   overview: 'Overview',
   qa: 'QA',
-  architecture: 'Zip文件结构',
+  architecture: '结构',
   architectureTip:
     '倍赛格式：我们将按照我们的标准格式压缩文件\n与上传相同：上传数据时，我们将按照您的原始 zip 结构压缩文件。',
   parseZipByTip:
@@ -23,6 +30,8 @@ export default {
   more: '更多',
   localData: '本地数据',
   objectStorage: '对象存储',
+  basicAiStorage: "Basic AI's Cloud",
+  myCloudStorage: 'My Cloud Storage',
   dataType: '数据类型',
   uploadDate: '上传时间',
 
@@ -84,22 +93,32 @@ export default {
     Original: '原始参数',
   },
   uploadModel: {
+    ResultNameEmpty: "Result name can't be empty",
+    ResultNameMorethan255: 'Result name should be no more than 255 characters',
+    ResultNameDuplicated: "Result name can't be duplicated",
+    uploadConfig: 'Upload Config',
     pathPlaceholder: '请输入路径，例如/目录/测试.rar或测试.rar',
+    cloudPlaceholder: 'Please select',
     // 0
     and: '和',
     uploadResult: ' 如何上传带结果的数据',
+    checkTip: 'Check our documents to know how to config and upload',
     // 1
     uploadLocalData: '上传本地数据',
     clickText: '点此选择文件，',
     dragText: '或拖拽文件到这里',
-    compressedFiles: '仅支持压缩文件（zip/gzip/tar）。',
+    compressedFiles: '仅支持压缩文件（zip/gzip/tar/rar）。',
+    selectedHolder: 'You have selected {num} files.',
+    reSelectHolder: 'Click or drag and drop to re-select files',
     widthText: ' ',
     formatText: ' 3D数据需满足支持的文件格式',
     widthSupported: ' ',
     checkText: '查看帮助文档：',
     checkImageText: '查看帮助文档：支持的数据格式',
+    uploadImageSupportTip:
+      'Only image files (.jpg/.jpeg/.png/.bmp/.tiff/.webp) or compressed files (.zip/.gzip/.tar/.rar) containing valid image types are supported.',
     supportedTypes: '支持的文件格式：',
-    imageTypes: 'zip/gzip/tar/jpg/jpeg/png',
+    imageTypes: 'zip/gzip/tar/rar/jpg/jpeg/png/bmp/tiff/webp',
     limitUploadLocal: '文件大小不得超过1GB。对于较大的文件，建议使用URL链接或对象存储方式上传。',
     // 2
     uploadByUrl: '通过链接上传',
@@ -112,6 +131,7 @@ export default {
     connect: '连接',
     finish: '完成',
     // 3
+    basicAIMinIO: 'Basic AI minIO',
     minIOBucket: 'MinIO存储桶',
     uploadMinIO: '请使用以下信息将压缩文件上传到我们的MinIO存储桶：',
     specifyMinIO: '请指定MinIO存储桶中你的路径',
@@ -131,13 +151,17 @@ export default {
     resultName: '结果名称',
     selectResults: '选择结果',
     linkPlaceholder: '请输入压缩文件的URL',
+    // 4
+    cloudStorage: ' Cloud Storage',
 
-    imageTypeError: '只能上传zip/gzip/tar/jpg/jpeg/png文件！',
-    zipTypeError: '只能上传zip/gzip/tar文件！',
+    imageTypeError: '只能上传zip/gzip/tar/rar/jpg/jpeg/png/bmp/tiff/webp文件！',
+    zipTypeError: '只能上传zip/gzip/tar/rar文件！',
     fileSizeMax1GB: '文件必须小于1GB！',
     resultNameRequired: '请填写结果名称',
+    atLeastAFile: 'Please select the data you want to upload',
   },
   parse: {
+    zipFile: 'zip File',
     parseZip: '解析zip文件的方式',
     folderName: '文件夹名称',
     folderArchitecture: '文件夹结构',
@@ -148,7 +172,13 @@ export default {
     tip: "如果您选择按文件夹名称选择解析，我们将根据包含关键词如'批次'和'场景'的文件夹名称来解析zip文件。然而，如果您选择按文件夹结构选择解析，最后一级将是'数据'，而上一级将是'场景'和'批次'。更多详细信息，请参考我们的文档。",
     // tip: "如果您选择按文件夹名称选择，我们将根据包含关键字（如 'batch' 和 'scene'）的文件夹名称解析 zip 文件。但是，如果您选择按结构选择，则最后一级将是 'data'，上一级将是 'scene' 和 'batch'。有关更多详细信息，请参阅我们的文档。",
   },
-
+  dataConfig: {
+    Data: 'Data and annotation',
+    DataFormat: 'Format',
+    formatTip:
+      ' Data and annotation format are the rules that  Basic AI organizes your data and annotations across all the folders in your zip file.',
+    annotationstTip: ' If and where you want to Import annotations .',
+  },
   sort: {
     itemName: '数据名称',
     createDate: '创建时间',
@@ -191,10 +221,36 @@ export default {
   lockedTips: '您占用了{dataNum}条数据，是否继续标注？',
 
   export: {
+    zipFileNameValidator: "Zip file name can't be empty",
+    createAnExport: 'Create an Export',
+    annotations: 'Annotations',
+    AnnotationResource: 'Annotation resource',
+    Annotationformat: 'Annotation format',
+    OnlyexportData: 'Only export data with result',
+    expectRawData: 'Expect raw data',
+    dataRange: 'Data range',
+    dataFormat: 'Data format',
+    data: 'Data',
+    zipFileName: 'zip File Name',
+    cloundStorage: 'Clound Storage',
+    saveToCloud: 'Save to Cloud',
+    zipFile: 'Zip file',
     allData: '所有数据',
     filterData: '筛选后的数据',
     selectedData: '已选择的数据',
     basicAiFormat: '倍赛格式',
     sameAsUpload: '与上传相同',
+    limitHistory: 'We only save recent record of 3 months',
+    createTime: 'Create time',
+    Ready: 'Ready',
+    Downloading: 'Downloading',
+    Zipping: 'Zipping',
+    Pending: 'Pending',
+    Sending: 'Sending',
+    Failed: 'Failed',
+    Done: 'Done',
+    deleteTitle: 'Delete an export record?',
+    deleteTips:
+      'You are going to delete an export record, this action is irrevocable, do you wish to proceed?',
   },
 };

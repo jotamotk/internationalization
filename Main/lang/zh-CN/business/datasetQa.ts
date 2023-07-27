@@ -23,15 +23,11 @@ export default {
   },
   apply: {
     applyChangesToTheDataset: '将更改应用于数据集',
-    changeTipForDataset:
-      '在点击“将更改应用于数据集”之前，更改将不会应用到数据集的注释中',
-    conflictTipForDataset:
-      '您需要确保没有互斥的规则才能将更改应用于数据集',
+    changeTipForDataset: '在点击“将更改应用于数据集”之前，更改将不会应用到数据集的注释中',
+    conflictTipForDataset: '您需要确保没有互斥的规则才能将更改应用于数据集',
     applyChangesToTheTask: '将更改应用于任务',
-    changeTipForTask:
-      '在点击“将更改应用于任务”之前，更改将不会应用到任务的注释中',
-    conflictTipForTask:
-      '您需要确保没有互斥的规则才能将更改应用于任务',
+    changeTipForTask: '在点击“将更改应用于任务”之前，更改将不会应用到任务的注释中',
+    conflictTipForTask: '您需要确保没有互斥的规则才能将更改应用于任务',
   },
   targetObject: {
     targetObject: '目标对象',
@@ -60,18 +56,16 @@ export default {
   QCJAlert: {
     update: '更新',
     updateTitle: '您的数据索引已过时',
-    updateDes1:
-      '您的数据索引上次更新于{ lastUpdateAt }，意味着它们已过时。',
+    updateDes1: '您的数据索引上次更新于{ lastUpdateAt }，意味着它们已过时。',
     updateDes2:
       '使用过时的数据索引运行质量检查作业可能导致结果与实际数据不一致。为确保准确的结果，请更新您的数据索引。',
 
     build: '构建',
-    buildTitle: "在运行质量检查作业之前，您需要构建数据索引。",
+    buildTitle: '在运行质量检查作业之前，您需要构建数据索引。',
     buildDes: '要执行质量检查作业，您首先需要构建数据索引。',
     rebuild: '重新构建',
     rebuildTitle: '您的索引已经是最新版本！',
-    rebuildDes:
-      '您的数据索引上次更新于{ lastUpdateAt }，已经是最新版本。请随时运行质量检查作业。',
+    rebuildDes: '您的数据索引上次更新于{ lastUpdateAt }，已经是最新版本。请随时运行质量检查作业。',
     pengdingTitle: '正在更新您的数据索引',
     pengdingDes:
       '我们正在更新您的数据索引，您可以继续进行其他工作。完成后，您可以运行质量检查作业。',
@@ -119,13 +113,11 @@ export default {
     ViewReport: '查看报告',
     ViewViolations: '查看违规记录',
     deleteTitle: '删除质量检查作业',
-    deleteTips:
-      '您将要删除一个质量检查作业。确认此操作后，其所有报告和违规记录将被永久删除。',
+    deleteTips: '您将要删除一个质量检查作业。确认此操作后，其所有报告和违规记录将被永久删除。',
     createJobs: '创建质量检查作业',
 
     stopTitle: '停止质量检查作业',
-    stopTips:
-      '您将要停止一个质量检查作业。停止质量检查作业不会生成报告或违规记录。',
+    stopTips: '您将要停止一个质量检查作业。停止质量检查作业不会生成报告或违规记录。',
   },
   configModal: {
     configARule: '配置规则',
@@ -149,9 +141,7 @@ export default {
       sureDelete: '您确定要删除所选项目或系列吗？此操作不可逆转。',
     },
     reportAreNotAvailable: '报告不可用',
-    reportTip:
-      '此报告根据您选择的规则和维度反映数据质量。',
-    breakdownTip:
-      '数据质量细分根据您选择的质量检查规则在四个维度上衡量您的数据质量。',
+    reportTip: '此报告根据您选择的规则和维度反映数据质量。',
+    breakdownTip: '数据质量细分根据您选择的质量检查规则在四个维度上衡量您的数据质量。',
   },
 };

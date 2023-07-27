@@ -38,12 +38,7 @@ export default {
     viewAllInQA: 'QA에서 모두 보기',
     checked: '체크됨',
     unChecked: '체크 안 됨',
-    accept: '검수',
-    reject: '반려',
-    reassign: '재할당',
     removeFromTask: '타스크에서 제거',
-    acceptAll: '모두 검수',
-    rejectAll: '모두 반려',
     deleteTitle: '이 샘플 결과를 삭제하시겠습니까?',
     deleteDesc: '샘플 결과를 삭제해도 오리진 데이터 및 작업에 영향을 미치지 않습니다.',
     acceptAllModalTips1: '검수 예정',
@@ -54,7 +49,7 @@ export default {
     acceptAllModalTips6: '위의 설명을 이해하여 데이터를 받겠습니다.',
     acceptAllModalPlaceHolder: '위의 텍스트를 입력하여 선택한 데이터를 검수하기',
     rejectAllModalTips1: '반려 예정',
-    rejectAllModalTips2: '워크플로우에 선택한 데이터 완료됨',
+    rejectAllModalTips2: ' 워크플로우에 선택한 데이터 완료됨',
     rejectAllModalTips3: '워크플로우를 완료하는 모든 데이터를 반려합니다',
     rejectAllModalTips4: '반려합니다 단계를 선택하세요',
     rejectAllModalTips5: '만료 시간 내에 검수 단계에 제출한 데이터만 포함',
@@ -225,16 +220,9 @@ export default {
     admins: '관리자',
     progress: '진행률',
     ongoingData: '진행 중인 데이터',
-    // btn
-    viewHistory: '기록',
-    annotate: '작업',
-    review: '리뷰',
-    config: 'Config',
-    pause: '일시 중지',
-    continue: '계속',
-    close: '닫기',
-    delete: '삭제',
-    restart: '다시 시작',
+    workflowStage: 'Workflow Stage',
+    status: 'Status',
+
     // tips
     inReview: '리뷰 중',
     claimed: '수령됨',
@@ -320,7 +308,6 @@ export default {
     },
   },
   countdown: {
-    claim: '수령',
     emptyClaim: '현재 사용 가능한 데이터가 없습니다.',
     emptyTip:
       '한 번에 최대 {dataNum}개의 데이터를 할당할 수 있으며, 회차 기간은 {minute}분입니다. 즉 데이터당 최대 {perMinute}분을 사용할 수 있습니다.',
@@ -332,14 +319,6 @@ export default {
       withComments: '코멘트 있음',
       withMyComments: '내 코멘트 있음',
       withWorkflowRejects: '워크플로우에 빈려 있음',
-    },
-    actionList: {
-      submit: '제출',
-      pass: '통과',
-      reject: '반려',
-      annotate: '작업',
-      review: '리뷰',
-      markValid: '무효로 표시',
     },
     expiringModal: {
       claimedData: '수령된 데이터의(',
@@ -395,6 +374,8 @@ export default {
     dataAdded: '데이터 추가됨',
     dataStatus: '데이터 상태',
     workflowStatus: '작업 단계',
+    // TODO 韩语
+    workflowStage: 'Workflow Stage',
     AssigneeAnnotator: '작업자',
     Activities: '활동',
     sampling: '샘플링',
@@ -445,5 +426,13 @@ export default {
     taskStarted: '작업 시작',
     taskCompleted: '작업 완료',
     viewInNewTab: '새 창에서 보기',
+    // TODO 韩文
+    radius: 'Radius(m)',
+  },
+  // TODO 韩文
+  operateHistory: {
+    title: 'Work flow and result version',
+    dataId: 'Data ID',
+    dataName: 'Data Name',
   },
 };

@@ -60,6 +60,7 @@ export default {
   back: 'Back',
 
   exportText: 'Export',
+  exportHistoryText: 'Export History',
 
   light: 'Light',
   dark: 'Dark',
@@ -77,6 +78,26 @@ export default {
     selectAll: 'Select All',
     selectAllLoaded: 'Select All Loaded',
     unselectAll: 'Unselect All',
+    claim: 'Claim',
+    viewHistory: 'View History',
+    annotate: 'Annotate',
+    review: 'Review',
+    config: 'Configure',
+    pause: 'Pause',
+    continue: 'Continue',
+    close: 'Close',
+    delete: 'Delete',
+    restart: 'Restart',
+    resume: 'Resume',
+    release: 'Release',
+    submit: 'Submit',
+    pass: 'Pass',
+    reject: 'Reject',
+    markValid: 'Mark as Invalid',
+    accept: 'Accept',
+    reassign: 'Re-assign',
+    acceptAll: 'Accept All',
+    rejectAll: 'Reject All',
   },
   status: {
     status: 'Status',
@@ -114,4 +135,9 @@ export default {
   pleaseInput: 'Please input {holder}',
   pleaseSelect: 'Please select {holder}',
   characterLengthLimit: 'Character length should be no more than {length}.',
+
+  // TODO 英文
+  operator: '操作人',
+  operateTime: '操作时间',
+  actions: 'Actions',
 };

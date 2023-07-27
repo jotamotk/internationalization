@@ -73,7 +73,8 @@ export default {
         singleInfo: 'Number of data that were accepted during the filtered time period.',
       },
       submittedInfo: {
-        framesInfo: 'Number of scenes / frames that were submitted during the filtered time period.',
+        framesInfo:
+          'Number of scenes / frames that were submitted during the filtered time period.',
         singleInfo: 'Number of data that were submitted during the filtered time period.',
       },
     },
@@ -105,8 +106,10 @@ export default {
       AccAccuracy: 'ACC Accuracy',
       AccPassRate: 'ACC Pass Rate',
       completedInfo: {
-        accuracy: 'Accuracy: Total Number of Accurate Data in the ACC stage / Total Number of Data.',
-        passRate: 'Pass Rate: Total Number of Data in the ACC stage / Total Number of Submission Times.',
+        accuracy:
+          'Accuracy: Total Number of Accurate Data in the ACC stage / Total Number of Data.',
+        passRate:
+          'Pass Rate: Total Number of Data in the ACC stage / Total Number of Submission Times.',
         AccAccuracy:
           'ACC Accuracy: Total Number of Accurate Data in the ACC stage / Total Number of Data.',
         AccPassRate:
@@ -267,7 +270,8 @@ export default {
     rejectedItems: 'Rejected Items',
     rejectItemsInfo: 'Number of Items that were rejected or reassigned to another worker.',
     resetScenes: 'Reset Scenes',
-    resetScenesInfo: 'Number of Scenes that were rejected or reassigned and had their results cleared.',
+    resetScenesInfo:
+      'Number of Scenes that were rejected or reassigned and had their results cleared.',
     resetItems: 'Reset Items',
     resetItemsInfo:
       'Reset Items: Number of Items that were rejected or reassigned and had their results cleared to an earlier stage.',

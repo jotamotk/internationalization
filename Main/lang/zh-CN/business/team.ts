@@ -20,10 +20,6 @@ export default {
   createTeam: '创建团队',
   joinTeam: '加入团队',
   action: '操作',
-  actionList: {
-    accept: '通过',
-    reject: '驳回',
-  },
 
   tab: {
     member: '成员',
@@ -31,6 +27,9 @@ export default {
     role: '角色',
     setting: '设置',
     planBilling: '订阅和账单',
+    teamManagement: 'Team management',
+    api: 'API',
+    cloudStorage: 'Cloud Storage',
   },
 
   setting: {
@@ -224,7 +223,6 @@ export default {
       modelCallsTip: '本月已用/ 本月剩余可用(总量)',
     },
     resumeModal: {
-      resume: '恢复',
       sureResume: '确定恢复原有订阅吗？',
     },
     billingTable: {
@@ -285,5 +283,61 @@ export default {
     placeholder: '时区',
     timezone: '时区',
     required: '请选择时区',
+  },
+  api: {
+    myTeamAPIs: 'My Team APIs',
+    apiTip:
+      'API keys are capable of performing dangerous operations. Be careful when sharing your API key with others or exposing it in the browser. Please note that we do not display your secret API keys again after you generate them.',
+    emptyApi: "You don't have any API Keys, create one?",
+    createAPIKey: 'Create a API Key',
+    APIKeyName: 'API Key Name',
+    expirationDate: 'Expiration Date',
+    neverExpired: 'Never expired',
+    createAPITip:
+      'Please note that we do not display your secret API keys again after you close this dialog. Make sure you have copied it',
+    newApiKey: '🎉 Your new api key',
+  },
+  storage: {
+    cloudStorage: 'Cloud Storage',
+    storageTip:
+      'You can integrate and manage your cloud storage here, your credential is safe with us and it will only be used for data upload and export',
+    emptyStorage: "You don't have any cloud storage, create one?",
+    deleteCloudStorage: 'Delete an Cloud Storage?',
+    deleteStorageTip:
+      'You are going to delete an cloud storage, this action is irrevocable, do you wish to proceed?',
+    cloudStorageProfile: 'Cloud Storage Profile',
+    cloudStorageName: 'Cloud Storage Name',
+    storageName: 'Storage name',
+    duplicateStorage: 'Cloud storage name cannot be duplicated',
+    overStorage: 'Cloud storage name cannot more than 255 characters',
+    provider: 'Provider',
+    providerList: {
+      amazonS3: 'Amazon S3',
+      azureBlobStorage: 'Azure Blob Storage',
+      googleDrive: 'Google Drive',
+      box: 'Box',
+      dropbox: 'Dropbox',
+      baiduDrive: 'Baidu Drive',
+      alibabaS3: 'Alibaba OSS',
+    },
+    server: 'Server',
+    port: 'Port',
+    location: 'Location',
+    URL: 'URL',
+    accessKeyID: 'Access Key ID',
+    secretAccessKey: 'Secret Access Key',
+    bucketName: 'Bucket name',
+    containerName: 'Container name',
+    storageAccountName: 'Storage Account Name',
+    primaryAccessKey: 'Primary Access Key',
+    connectWithGoogleDrive: 'Connect with Google Drive',
+    connectWithBox: 'Connect with Box',
+    connectWithDropbox: 'Connect with Dropbox',
+    connectWithBaiduDrive: 'Connect with Baidu Drive',
+    haveConnectedWith: 'You have connected with {drive}',
+    failedToFetch: 'Fail to fetch your {drive} authentication. Please try again',
+    failedToConnect: 'Fail to connect with your cloud. Please check your credentials',
+    successConnect: 'Congratulations! Your authentication has been completed!',
+    failConnect: 'Failed to fetch your authentication. Please try again.',
   },
 };

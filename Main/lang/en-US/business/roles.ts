@@ -57,7 +57,8 @@ export default {
       ontologyCenter: 'Ontology Center',
       viewDesc: 'Allow members to view Ontologies and copy Ontologies from datasets.',
       createDesc: 'Allow members to create ontologies.',
-      editDesc: 'Allow members to edit Ontologies and save them from datasets to the Ontology Center.',
+      editDesc:
+        'Allow members to edit Ontologies and save them from datasets to the Ontology Center.',
       deleteDesc: 'Allow members to delete Ontologies.',
     },
     model: {

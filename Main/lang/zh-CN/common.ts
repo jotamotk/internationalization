@@ -60,6 +60,7 @@ export default {
   back: '返回',
 
   exportText: '导出',
+  exportHistoryText: '导出记录',
 
   light: '浅色主题',
   dark: '深色主题',
@@ -77,6 +78,26 @@ export default {
     selectAll: '全选',
     selectAllLoaded: '全选已加载',
     unselectAll: '取消全选',
+    claim: '领取',
+    viewHistory: '查看历史',
+    annotate: '标注',
+    review: '审核',
+    config: '配置',
+    pause: '暂停',
+    continue: '继续',
+    close: '关闭',
+    delete: '删除',
+    restart: '重新启动',
+    resume: '恢复',
+    release: '释放',
+    submit: '提交',
+    pass: '通过',
+    reject: '驳回',
+    markValid: '标记为无效数据',
+    accept: '通过',
+    reassign: '重新分配',
+    acceptAll: '验收通过全部',
+    rejectAll: '驳回全部',
   },
   status: {
     status: '状态',
@@ -114,4 +135,8 @@ export default {
   pleaseInput: '请输入 {holder}',
   pleaseSelect: '请选择 {holder}',
   characterLengthLimit: '文字长度应该不超过 {length}.',
+
+  operator: '操作人',
+  operateTime: '操作时间',
+  actions: '操作',
 };
