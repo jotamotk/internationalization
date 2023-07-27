@@ -63,6 +63,7 @@ export default {
   back: '이전',
 
   exportText: '도출',
+  exportHistoryText: 'Export History',
 
   // TODO 韩语
   light: 'Light',
@@ -81,6 +82,27 @@ export default {
     selectAll: '모두 선택',
     selectAllLoaded: 'Select All Loaded',
     unselectAll: '모두 선택 취소',
+    claim: '수령',
+    viewHistory: '기록',
+    annotate: '작업',
+    review: '리뷰',
+    config: 'Config',
+    pause: '일시 중지',
+    continue: '계속',
+    close: '닫기',
+    delete: '삭제',
+    restart: '다시 시작',
+    resume: '계속',
+    // TODO 韩语
+    release: 'Release',
+    submit: '제출',
+    pass: '통과',
+    reject: '반려',
+    markValid: '무효로 표시',
+    accept: '통과',
+    reassign: '재할당',
+    acceptAll: '모두 검수',
+    rejectAll: '모두 반려',
   },
   status: {
     status: '상태',
@@ -95,7 +117,7 @@ export default {
     successWithError: 'Success with Error',
     disabled: '불가',
     notActive: '비정상',
-    completed: 'Completed',
+    completed: '완료됨',
   },
   all: '모두',
   apply: '적용',
@@ -120,4 +142,8 @@ export default {
   pleaseInput: 'Please input {holder}',
   pleaseSelect: 'Please select {holder}',
   characterLengthLimit: 'Character length should be no more than {length}.',
+  // TODO 韩文
+  operator: '操作人',
+  operateTime: '操作时间',
+  actions: '작업',
 };

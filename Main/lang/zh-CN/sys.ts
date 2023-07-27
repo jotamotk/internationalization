@@ -161,8 +161,7 @@ export default {
     forget: {
       forgetPassword: ' 忘记密码？',
       notAMember: '还不是成员？',
-      resubmitEmail:
-        '这个链接已经被使用来修改您的密码。请重新提交您的新电子邮件地址',
+      resubmitEmail: '这个链接已经被使用来修改您的密码。请重新提交您的新电子邮件地址',
       sendToTheEmail: '我们将发送重置密码链接至以下电子邮件地址:',
       Oops: '糟了!',
       wrongEmail: '邮箱错误',
@@ -179,8 +178,7 @@ export default {
     manageTeams: '管理团队',
     upgradeNow: '现在升级',
 
-    businessTip:
-      '企业邮件系统中的每个域名只能免费创建最多5个团队',
+    businessTip: '企业邮件系统中的每个域名只能免费创建最多5个团队',
     maxTeam:
       '您似乎已经达到了企业邮件的最大团队数量限制（5个团队）。要创建更多团队，请升级到我们的高级计划，或者删除现有的团队以释放空间。',
     validEmail: '请输入一个有效的电子邮件地址',
@@ -193,7 +191,7 @@ export default {
   },
   contact: {
     hey: '嗨!',
-    tip: "我们有一个有趣而友好的 Slack 社区，您可以在其中与我们交流、分享您的想法并提供反馈。点击下方按钮将您重定向到我们的 Slack 频道。我们非常欢迎您的加入！",
+    tip: '我们有一个有趣而友好的 Slack 社区，您可以在其中与我们交流、分享您的想法并提供反馈。点击下方按钮将您重定向到我们的 Slack 频道。我们非常欢迎您的加入！',
     takeMeToSlack: '带我去 Slack！',
   },
 };

@@ -36,7 +36,7 @@ export default {
   attributes: '속성',
 
   deleteClass: '클래스 삭제하기',
-  deleteSure: '클래스를 삭제하시겠습니까? ',
+  deleteSure: '클래스를 삭제하시겠습니까',
   hasDeleted: '삭제 성공',
 
   // SYNC

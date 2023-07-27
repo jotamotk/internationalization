@@ -36,7 +36,7 @@ export default {
   attributes: 'Attributes',
 
   deleteClass: 'Delete Class',
-  deleteSure: 'Are you sure you want to delete Class?',
+  deleteSure: 'Are you sure you want to delete Class',
   hasDeleted: 'has been deleted!',
 
   // SYNC

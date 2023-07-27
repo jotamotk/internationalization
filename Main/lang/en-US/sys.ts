@@ -59,8 +59,7 @@ export default {
     subTitle500: 'Sorry, the server is reporting an error.',
     noDataTitle: 'No data on the current page.',
     networkErrorTitle: 'No Internet connection.',
-    networkErrorSubTitle:
-      'No Internet connection.Please check your network!',
+    networkErrorSubTitle: 'No Internet connection.Please check your network!',
   },
   lock: {
     unlock: 'Unlock',

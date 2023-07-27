@@ -38,12 +38,7 @@ export default {
     viewAllInQA: '质检',
     checked: '已检查',
     unChecked: '未检查',
-    accept: '验收通过',
-    reject: '驳回',
-    reassign: '重新分配',
     removeFromTask: '从任务中移除',
-    acceptAll: '验收通过全部',
-    rejectAll: '驳回全部',
     deleteTitle: '是否确认删除该抽样结果？',
     deleteDesc: '删除抽样结果不会影响原始数据和标注结果。',
     acceptAllModalTips1: '您将要验收通过',
@@ -54,7 +49,7 @@ export default {
     acceptAllModalTips6: '我理解上述后果，并确认验收通过这些数据。',
     acceptAllModalPlaceHolder: '输入上面的文本以验收通过所选数据',
     rejectAllModalTips1: '您将要驳回',
-    rejectAllModalTips2: '已完成工作流的所选数据',
+    rejectAllModalTips2: ' 已完成工作流的所选数据',
     rejectAllModalTips3: '您将要驳回已完成工作流的全部数据',
     rejectAllModalTips4: '请选择您要将数据重新驳回到哪个工序',
     rejectAllModalTips5: '只有在时间戳前进入验收阶段的数据会被包括.',
@@ -224,16 +219,9 @@ export default {
     admins: '管理员',
     progress: '进度',
     ongoingData: '进行中的数据',
-    // btn
-    viewHistory: '查看历史',
-    annotate: '标注',
-    review: '审核',
-    config: '配置',
-    pause: '暂停',
-    continue: '继续',
-    close: '关闭',
-    delete: '删除',
-    restart: '重新启动',
+    workflowStage: 'Workflow Stage',
+    status: 'Status',
+
     // tips
     inReview: '审核中',
     claimed: '已领取',
@@ -306,11 +294,12 @@ export default {
     notClaimed: '待领取',
     working: '作业中',
     submitted: '已提交',
+    // TODO 中文
     rejected: 'Rejected',
     segmentationPoint: '分割点',
     segmentationData: '分割数据',
-    segmentationObject: 'Segmentation Object',
     // TODO 中文
+    segmentationObject: 'Segmentation Object',
     imgCardAccuracy: {
       IObject: 'I-Object',
       SPoint: 'S-Point',
@@ -318,7 +307,6 @@ export default {
     },
   },
   countdown: {
-    claim: '领取',
     emptyClaim: '当前暂无可领取的数据',
     emptyTip:
       '您可以一次性认领多达 {dataNum} 个数据，批处理持续时间为 {minute} 分钟。 因此，您每个数据的最大时间为 {perMinute} 分钟。',
@@ -330,14 +318,6 @@ export default {
       withComments: '有评论',
       withMyComments: '有我创建的评论',
       withWorkflowRejects: '有工作流中驳回',
-    },
-    actionList: {
-      submit: '提交',
-      pass: '通过',
-      reject: '驳回',
-      annotate: '标注',
-      review: '审核',
-      markValid: '标记为无效数据',
     },
     expiringModal: {
       claimedData: '你领取的数据（',
@@ -392,6 +372,8 @@ export default {
     dataAdded: '已添加数据',
     dataStatus: '数据状态',
     workflowStatus: '工作流状态',
+    // TODO 中文
+    workflowStage: 'Workflow Stage',
     AssigneeAnnotator: '标注员',
     Activities: '活动',
     sampling: '抽样',
@@ -430,7 +412,7 @@ export default {
     },
     addDataSuccessfully: '成功添加数据',
     remove: {
-      removeData: "您将要从任务中移除 {num} 条数据。一旦移除，它们将不再在任务中工作。",
+      removeData: '您将要从任务中移除 {num} 条数据。一旦移除，它们将不再在任务中工作。',
       removeSuccess: '已从任务中移除 {num} 条数据。',
       removeFailure: '已失败 {num} 条数据，因为它们已被认领。',
     },
@@ -441,5 +423,13 @@ export default {
     taskStarted: '任务开始时间',
     taskCompleted: '任务完成时间',
     viewInNewTab: '在新页面中查看',
+    // TODO 中文
+    radius: 'Radius(m)',
+  },
+  // TODO 中文
+  operateHistory: {
+    title: 'Work flow and result version',
+    dataId: 'Data ID',
+    dataName: 'Data Name',
   },
 };

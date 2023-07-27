@@ -55,7 +55,7 @@ export default {
     acceptAllModalTips6: 'I understand the above consequences and want to accept this data',
     acceptAllModalPlaceHolder: 'Type the above text to accept the selected data',
     rejectAllModalTips1: 'You are about to reject',
-    rejectAllModalTips2: 'selected data which have completed the workflow',
+    rejectAllModalTips2: ' selected data which have completed the workflow',
     rejectAllModalTips3: 'You are about to reject ALL the data which have completed the workflow',
     rejectAllModalTips4: 'Please select the stage you want to reject',
     rejectAllModalTips5:
@@ -133,14 +133,16 @@ export default {
     assignWorkerAdminTitle: 'Assign Inspector',
     assignWorkerAdminPopover: 'Inspectors can accept the task',
     batchSize: 'Batch Size',
-    batchSizePopover: 'The number of data items that each worker can claim at a time in a single stage',
+    batchSizePopover:
+      'The number of data items that each worker can claim at a time in a single stage',
     batchSizeRequiredError: 'Please enter the batch size',
     maxDataDuration: 'Max Data Duration',
     maxDataDurationPopover: 'The maximum number of minutes allowed for finishing a batch of data',
     maxDataDurationRequiredError: 'Please enter the maximum batch duration',
     minutes: 'Minutes',
     dataAccuracy: 'Data Accuracy',
-    dataAccuracyPopover: 'This is the object accuracy threshold used to determine if data is accurate.',
+    dataAccuracyPopover:
+      'This is the object accuracy threshold used to determine if data is accurate.',
     dataAccuracyRequiredError: 'Please enter Data Accuracy',
     allowWorkerView: 'Allow worker to view submitted data',
     allowSame: 'Allow the same worker to work on the same data at different stages',
@@ -200,7 +202,7 @@ export default {
   },
   error: {
     classRequired: 'Please select a Class or Classification',
-    previewError: "No data could be found in your task. Please check your task and the dataset.",
+    previewError: 'No data could be found in your task. Please check your task and the dataset.',
   },
   step: {
     taskBasics: 'Task Basics',
@@ -232,6 +234,8 @@ export default {
     admins: 'Admins',
     progress: 'Progress',
     ongoingData: 'Ongoing Data',
+    workflowStage: 'Workflow Stage',
+    status: 'Status',
     // btn
     viewHistory: 'View History',
     annotate: 'Annotate',
@@ -280,7 +284,8 @@ export default {
     hello: 'Hello',
     toDoInfo:
       'In the "To-do" section, where your assigned tasks are located, simply click on "Annotate" or "Review" to begin.',
-    myTaskInfo: 'Task admins can track and manage assigned tasks in the "My Tasks Management" section.',
+    myTaskInfo:
+      'Task admins can track and manage assigned tasks in the "My Tasks Management" section.',
     desc1:
       'You can find your assigned tasks in the "To-do" tab. To start, click on "Annotate/Review".',
     desc2: 'Admins can locate their tasks in the "My Tasks Management" tab.',
@@ -398,11 +403,13 @@ export default {
   taskDetail: {
     previewTips: 'Preview annotations',
     settingAlert: 'To make changes to this task, you must first assign yourself as the Task Admin.',
-    dataAlertBefore: 'To perform actions on this task, you must first assign yourself as the Task Admin in',
+    dataAlertBefore:
+      'To perform actions on this task, you must first assign yourself as the Task Admin in',
     dataAlertAfter: 'tab first',
     dataAdded: 'Data Added',
     dataStatus: 'Data Status',
     workflowStatus: 'Workflow Status',
+    workflowStage: 'Workflow Stage',
     AssigneeAnnotator: 'Assignee Annotator',
     Activities: 'Activities',
     sampling: 'Sampling',
@@ -442,7 +449,7 @@ export default {
     addDataSuccessfully: 'Data Added Successfully',
     remove: {
       removeData:
-        "You are about to remove {num} pieces of data from the task. Once removed, they will no longer be worked on in this task.",
+        'You are about to remove {num} pieces of data from the task. Once removed, they will no longer be worked on in this task.',
       removeSuccess: '{num} pieces of data have been removed from the task',
       removeFailure: "{num} operations failed because they've already been claimed",
     },
@@ -453,5 +460,11 @@ export default {
     taskStarted: 'Task Started',
     taskCompleted: 'Task Completed',
     viewInNewTab: 'View in a New Tab',
+    radius: 'Radius(m)',
+  },
+  operateHistory: {
+    title: 'Work flow and result version',
+    dataId: 'Data ID',
+    dataName: 'Data Name',
   },
 };

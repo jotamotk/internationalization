@@ -1,10 +1,17 @@
 export default {
+  MyCloud: 'My Cloud',
+  BucketName: 'Bucket name',
+  CloudTips: 'Please choose a cloud storage provider and select a path.',
+  CloudPathTips: 'Please click on the file below to obtain a path',
+  pathPlaceholder: 'Please click on the file below to obtain a path',
+  ViewStorage: 'View Storage',
   url: 'URL',
   data: '데이터',
   // TODO 韩语
   overview: 'Overview',
   qa: 'QA',
-  architecture: 'Zip 파일 구조',
+  architecture: '파일 구조',
+  name: 'Name',
   architectureTip:
     'BasicAI형식: 업로드와 동일한 표준 형식으로 파일을 압축합니다. \n데이터를 업로드할 때 원본 zip 구조로 파일을 압축합니다.',
   parseZipByTip:
@@ -23,6 +30,8 @@ export default {
   more: 'More',
   localData: '로컬 데이터',
   objectStorage: '스토리지',
+  basicAiStorage: "Basic AI's Cloud",
+  myCloudStorage: 'My Cloud Storage',
   dataType: '데이터 유형',
   uploadDate: '업로드된 날짜',
   // TODO 韩语
@@ -84,22 +93,32 @@ export default {
     Original: '원시 수치',
   },
   uploadModel: {
+    ResultNameEmpty: "Result name can't be empty",
+    ResultNameMorethan255: 'Result name should be no more than 255 characters',
+    ResultNameDuplicated: "Result name can't be duplicated",
+    uploadConfig: 'Upload Config',
     pathPlaceholder: '경로를  입력하세요. 예: 카테고리/ test.zip 또는 test.zip',
+    cloudPlaceholder: 'Please select',
     // 0
     and: '및',
     uploadResult: '결과 있는 데이터를 업로드하기',
+    checkTip: 'Check our documents to know how to config and upload',
     // 1
-    uploadLocalData: 'U로컬 데이터 업로드하기',
+    uploadLocalData: '로컬 데이터 업로드하기',
     clickText: '클릭하여 파일을 선택하십시오.',
     dragText: '또는 여기에 파일을 끌어다 놓으십시오',
-    compressedFiles: '압축 파일만(zip/gzip/tar) 지원합니다.',
+    selectedHolder: 'You have selected {num} files.',
+    reSelectHolder: 'Click or drag and drop to re-select files',
+    compressedFiles: '압축 파일만(zip/gzip/tar/rar) 지원합니다.',
     widthText: ' ',
     formatText: '정확한 3D 형식만 지원합니다. ',
     widthSupported: ' ',
     checkText: '도움말',
     checkImageText: '도움말: 지원된 데이터 형식',
+    uploadImageSupportTip:
+      'Only image files (.jpg/.jpeg/.png/.bmp/.tiff/.webp) or compressed files (.zip/.gzip/.tar/.rar) containing valid image types are supported.',
     supportedTypes: '지원되는 파일 형식:',
-    imageTypes: 'zip/gzip/tar/jpg/jpeg/png',
+    imageTypes: 'zip/gzip/tar/rar/jpg/jpeg/png/bmp/tiff/webp',
     limitUploadLocal:
       '파일 크기 제한은 1GB입니다. 파일 크기가 초과한 경우 URL 또는 스토리지를 사용하십시오.',
     // 2
@@ -114,6 +133,7 @@ export default {
     connect: '연결',
     finish: '완성',
     // 3
+    basicAIMinIO: 'Basic AI minIO',
     minIOBucket: 'MiniO 버킷',
     uploadMinIO: '1. 다음 정보를 통해 압축된 zip 파일을 MiniO 버킷에 업로드하십시오.',
     specifyMinIO: '2. Minio 버킷에 경로를 지정하십시오.',
@@ -134,13 +154,17 @@ export default {
     resultName: '결과 이름',
     selectResults: '결과 선택',
     linkPlaceholder: 'url를 입력하여 zip 파일을 연결하기',
+    // 4
+    cloudStorage: ' Cloud Storage',
 
-    imageTypeError: 'zip/gzip/tar/jpg/jpeg/png 파일만 지원됩니다.',
-    zipTypeError: 'zip/gzip/tar 파일만 지원됩니다.',
+    imageTypeError: 'zip/gzip/tar/rar/jpg/jpeg/png/bmp/tiff/webp 파일만 지원됩니다.',
+    zipTypeError: 'zip/gzip/tar/rar 파일만 지원됩니다.',
     fileSizeMax1GB: '파일은 1GB를 초과할 수 없습니다.',
     resultNameRequired: 'resultName은 필수',
+    atLeastAFile: 'Please select the data you want to upload',
   },
   parse: {
+    zipFile: 'zip File',
     parseZip: 'Zip 파일 인식 방법',
     folderName: '폴더 이름',
     folderArchitecture: '폴더 구조',
@@ -150,6 +174,13 @@ export default {
     batchAndData: '회차 & 데이터',
     tip: "폴더 이름으로 선택하는 경우 'batch', 'scene' 등의 키워드가 포함된 폴더 이름을 기준으로 zip 파일을 인식하여 구조별로 선택하는 경우 마지막 기준은 'data'가 되고, 상위 기준은 'scene'과 'batch'가 됩니다. 자세한 내용은 문서를 참조하세요.",
     // tip: "폴더 이름으로 선택하는 경우 'batch', 'scene' 등의 키워드가 포함된 폴더 이름을 기준으로 zip 파일을 인식합니다. 그러나 구조별로 선택하는 경우 마지막 기준은 'data'가 되고, 상위 기준은 'scene'과 'batch'가 됩니다. 자세한 내용은 문서를 참조하세요.",
+  },
+  dataConfig: {
+    Data: 'Data and annotation',
+    DataFormat: 'Format',
+    formatTip:
+      ' Data and annotation format are the rules that  Basic AI organizes your data and annotations across all the folders in your zip file.',
+    annotationstTip: ' If and where you want to Import annotations .',
   },
 
   sort: {
@@ -194,10 +225,36 @@ export default {
   lockedTips: '{dataNum} 데이터 작업중입니다. 작업 계속하시겠습니까？',
 
   export: {
+    zipFileNameValidator: "Zip file name can't be empty",
+    createAnExport: 'Create an Export',
+    annotations: 'Annotations',
+    AnnotationResource: 'Annotation resource',
+    Annotationformat: 'Annotation format',
+    OnlyexportData: 'Only export data with result',
+    expectRawData: 'Expect raw data',
+    dataRange: 'Data range',
+    dataFormat: 'Data format',
+    data: 'Data',
+    zipFileName: 'zip File Name',
+    cloundStorage: 'Clound Storage',
+    saveToCloud: 'Save to Cloud',
+    zipFile: 'Zip file',
     allData: '모든 데이터',
     filterData: '필터된 데이터',
     selectedData: '선택된 데이터',
     basicAiFormat: 'BasicAI 형식',
     sameAsUpload: '업로드와 동일',
+    limitHistory: 'We only save recent record of 3 months',
+    createTime: 'Create time',
+    Ready: 'Ready',
+    Downloading: 'Downloading',
+    Zipping: 'Zipping',
+    Pending: 'Pending',
+    Sending: 'Sending',
+    Failed: 'Failed',
+    Done: 'Done',
+    deleteTitle: 'Delete an export record?',
+    deleteTips:
+      'You are going to delete an export record, this action is irrevocable, do you wish to proceed?',
   },
 };
