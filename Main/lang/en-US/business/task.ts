@@ -316,7 +316,7 @@ export default {
     byPoint: 'By Points',
     stage: 'Stage Breakdown',
     stageTip: 'The Stage Breakdown displays how your data is distributed at every stage.',
-    empty: 'No Instruction',
+    empty: 'No data available',
     progressEmpty: "You don't have any assigned tasks at the moment.",
     notStarted: 'Not Started',
     object: 'Object',
