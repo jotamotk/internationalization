@@ -295,11 +295,11 @@ export default {
     working: '作业中',
     submitted: '已提交',
     // TODO 中文
-    rejected: 'Rejected',
+    rejected: '打回',
     segmentationPoint: '分割点',
     segmentationData: '分割数据',
     // TODO 中文
-    segmentationObject: 'Segmentation Object',
+    segmentationObject: '分割对象',
     imgCardAccuracy: {
       IObject: 'I-Object',
       SPoint: 'S-Point',
@@ -373,7 +373,7 @@ export default {
     dataStatus: '数据状态',
     workflowStatus: '工作流状态',
     // TODO 中文
-    workflowStage: 'Workflow Stage',
+    workflowStage: '工作流阶段',
     AssigneeAnnotator: '标注员',
     Activities: '活动',
     sampling: '抽样',
@@ -424,12 +424,12 @@ export default {
     taskCompleted: '任务完成时间',
     viewInNewTab: '在新页面中查看',
     // TODO 中文
-    radius: 'Radius(m)',
+    radius: '半径（米）',
   },
   // TODO 中文
   operateHistory: {
-    title: 'Work flow and result version',
-    dataId: 'Data ID',
-    dataName: 'Data Name',
-  },
+    title: '工作流程和结果版本',
+    dataId: '数据ID',
+    dataName: '数据名称',
+    },
 };
