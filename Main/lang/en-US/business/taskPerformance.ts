@@ -21,7 +21,7 @@ export default {
   condition: {
     countConditions: 'Count Conditions',
     conditionInfo:
-      'Only tasks created in the past six months are eligible for performance analysis',
+      'Only tasks created within the past six months are eligible for performance analysis',
     taskHolder: 'Task ID / Task Name',
     dataType: 'Data Type',
     scenarioType: 'Scenario Type',
@@ -34,14 +34,14 @@ export default {
     dataStatus: 'Data Status',
     completed: 'Completed',
     completedInfo:
-      'The data has been accepted by the task admins. Once accepted, performance statistics will remain unchanged. Completed Performance is typically used for task billing.',
+      'The data has been accepted by the Task Admins. After acceptance, performance statistics will remain the same. The Completed Performance is typically used for task billing.',
     submitted: 'Submitted',
     submittedInfo:
-      'The data has been submitted by workers but has not yet been accepted by the task admins. These performance statistics are not final, as they may change as the task progresses. Submitted Performance is typically used for task progress monitoring.',
+      'The data has been submitted by the workers, but it has not yet been accepted by the Task Admins. The Performance statistics are not final and may change as the task progresses. The Submitted Performance is typically used for monitoring task progress.',
     dataValidity: 'Data Validity',
     valid: 'Valid & Unknown',
     invalid: 'Invalid',
-    validityInfo: 'Whether the data is marked as valid or invalid in the task',
+    validityInfo: 'Indicates if the data has been marked as valid or invalid in the task',
     date: 'Date',
     day: 'Day',
     week: 'Week',
@@ -69,13 +69,13 @@ export default {
       scenes: 'Scenes',
       frames: 'Frames',
       completedInfo: {
-        framesInfo: 'Number of scenes / frames that were accepted during the filtered time period.',
-        singleInfo: 'Number of data that were accepted during the filtered time period.',
+        framesInfo: 'Number of scenes/frames that were accepted during the filtered time period.',
+        singleInfo: 'Number of data items that were accepted during the filtered time period.',
       },
       submittedInfo: {
         framesInfo:
-          'Number of scenes / frames that were submitted during the filtered time period.',
-        singleInfo: 'Number of data that were submitted during the filtered time period.',
+          'Number of scenes/frames that were submitted during the filtered time period.',
+        singleInfo: 'Number of data items that were submitted during the filtered time period.',
       },
     },
     valid: {

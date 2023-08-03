@@ -1,8 +1,8 @@
 export default {
-  FailToSubmit: ' Failed to submit data, you must pass QA first',
+  FailToSubmit: 'Data submission failed. You must first pass QA.',
   rules: 'Rules',
   resolved: 'Resolved',
-  MarkAsUnresolved: 'Mark as unresolved',
+  MarkAsUnresolved: 'Mark as Unresolved',
   QualityCheckJobs: 'Quality Check Tasks',
   overview: {
     totalData: 'Total Data',
@@ -12,23 +12,23 @@ export default {
   validator: {
     resultConfig1: 'Please select at least 1 result',
     resultConfig2: 'Please select up to 5 results',
-    scoreWeight: 'All weights must add up to 100%',
+    scoreWeight: 'The total of weights must be 100%',
     qaCheckName: 'Please enter a name for the Quality Check',
-    SelectAJobs: 'You need to select at least one rule to run a quality check task',
-    SelectARule: 'To create a quality check task, you need at least one rule',
-    dimensionTips: 'You need to select at least one rule under {name} to customize the weight',
-    viewViolationstInfotoast: 'You need to complete quality check to view violations',
-    viewReportInfotoast: 'You need at least one successful quality check to view the report',
+    SelectAJobs: 'At least one rule must be selected to run a Quality Check task',
+    SelectARule: 'At least one rule is needed to create a Quality Check task',
+    dimensionTips: 'At least one rule under {name} must be selected to customize the weight',
+    viewViolationstInfotoast: 'You need to complete Quality Check to view violations',
+    viewReportInfotoast: 'At least one successful Quality Check is required to view the report',
   },
   apply: {
     applyChangesToTheDataset: 'Apply Changes to the Dataset',
     changeTipForDataset:
-      'Changes will not be applied to the dataset until you click "Apply Changes to Dataset" to effect the dataset annotation',
+      'Changes will not be applied to the dataset until you click on "Apply Changes to Dataset", which will affect the dataset annotation',
     conflictTipForDataset:
-      'You need to ensure there are no mutually exclusive rules before applying changes to the dataset',
+      'Ensure there are no mutually exclusive rules before applying changes to the dataset',
     applyChangesToTheTask: 'Apply Changes to the Task',
     changeTipForTask:
-      'Changes will not be applied to the task until you click "Apply Changes to Task" to effect the annotation',
+      'Changes will not be applied to the task until you click on "Apply Changes to Task", which will affect the annotation',
     conflictTipForTask:
       'You need to ensure there are no mutually exclusive rules before applying changes to the task',
   },
@@ -41,7 +41,7 @@ export default {
     allHeight: 'All Height',
     customHeight: 'Custom Height',
     targetObjectTip:
-      'In 3D point cloud data, target objects can be filtered based on their range and height from the zero point. These criteria are used to determine if a rule has been violated.',
+      'In 3D point cloud data, target objects can be filtered based on their range and height from the origin. These criteria help determine whether a rule has been violated.',
   },
   QCJConfigObject: {
     QCbasics: 'Quality Check Basics',
@@ -65,24 +65,24 @@ export default {
       'Using outdated data indices to run a quality check task can lead to inconsistent results that differ from the actual data. To ensure accurate results, please update your data indices.',
 
     build: 'Build',
-    buildTitle: "Before running a quality check task, you'll need to build data indices",
-    buildDes: 'To perform a quality check task, you first need to build data indices',
+    buildTitle: "Data indices must be built before running a Quality Check task",
+    buildDes: 'Data indices must be built before performing a Quality Check task',
     rebuild: 'Re-build',
     rebuildTitle: 'Your indices are already up to date!',
     rebuildDes:
-      'Your data indices were last updated on { lastUpdateAt }, which is the latest version. Feel free to run a quality check task.',
+      'Your data indices were last updated on { lastUpdateAt }, which is the latest version. Feel free to run a Quality Check task.',
     pengdingTitle: 'Your data indices are updating',
     pengdingDes:
-      'We are updating your data indices, feel free to continue with your other work. Once it is done, you can run a quality check task.',
+      'Your data indices are being updated. Feel free to continue with your other tasks. Once the update is complete, you will be able to run a Quality Check task.',
 
     hide: 'Hide',
     hideTitle: 'Your data indices are updated successfully',
     hideDes:
-      'Your data indices have been successfully updated. Now you can run your quality check tasks.',
+      'Your data indices have been successfully updated. Now you can run your Quality Check tasks.',
   },
   rulesList: {
     ifEnable: 'If enable',
-    rulesName: 'Rules name',
+    rulesName: 'Rules Name',
     requirement: 'Requirement',
     description: 'Description',
     dimension: 'Dimension',
@@ -119,14 +119,14 @@ export default {
     ViewReport: 'View Report',
     ViewViolations: 'View Violations',
 
-    deleteTitle: 'Delete a Quality Check Job',
+    deleteTitle: 'Delete a Quality Check Task',
     deleteTips:
-      'You are about to delete a quality check task. Once you confirm this operation, all of its reports and violation records will be permanently deleted.',
+      'You are about to delete a Quality Check task. Once you confirm this operation, all of its reports and violation records will be permanently deleted.',
 
-    createJobs: 'Create a Quality Check Job',
-    stopTitle: 'Stop a Quality Check Job',
+    createJobs: 'Create a Quality Check Task',
+    stopTitle: 'Stop a Quality Check Task',
     stopTips:
-      'You are about to stop a quality check task. Stopping a quality check task will not generate a report or a violation record.',
+      'You are about to stop a Quality Check task. Stopping a Quality Check task will not generate a report or a violation record.',
   },
   configModal: {
     configARule: 'Configure a Rule',
@@ -154,6 +154,6 @@ export default {
     reportTip:
       'The provided report reflects the quality of your data based on the rules and dimensions you have selected.',
     breakdownTip:
-      'The data quality breakdown measures your data quality across four dimensions, which are aggregated from the quality check rules you have selected.',
+      'The data quality breakdown measures your data quality across four dimensions, which are aggregated from the Quality Check rules you have selected.',
   },
 };
