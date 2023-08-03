@@ -6,7 +6,7 @@ export default {
   overview: 'Overview',
   ontology: 'Ontology',
   QA: 'QA',
-  QualityCheckJobs: 'QualityCheckJobs',
+  QualityCheckJobs: 'Quality Check Jobs',
   Rules: 'Rules',
   report: 'Report',
   trash: 'Trash',

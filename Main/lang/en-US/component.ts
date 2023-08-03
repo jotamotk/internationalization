@@ -104,7 +104,7 @@ export default {
 
     operating: 'Operating',
     del: 'Delete',
-    download: 'download',
+    download: 'Download',
     saveWarn: 'Please wait for the file to upload and save!',
     saveError: 'There is no file successfully uploaded and it cannot be saved!',
 
@@ -130,7 +130,7 @@ export default {
     reUploadFailed: 'Re-upload failed files',
   },
   verify: {
-    error: 'verification failed!',
+    error: 'Verification failed!',
     time: 'The verification is successful and it takes {time} seconds!',
     redoTip: 'Click the picture to refresh',
     dragText: 'Hold down the slider and drag',

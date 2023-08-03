@@ -3,7 +3,7 @@ export default {
   tokenChangeTip: 'Your user identity has changed. Click OK to redirect to the homepage',
   versionTipTitle: '🎆Version updated',
   versionTipContent:
-    'Our system has been updated to the latest version. Please refresh the page to continue using it. Thank you.',
+    'The platform has been updated to the latest version. Please refresh the page to continue using it. Thank you.',
   api: {
     operationFailed: 'Operation failed',
     errorTip: 'Error Tip',
@@ -11,7 +11,7 @@ export default {
     timeoutMessage: 'Login timed out. Please login again!',
     apiTimeoutMessage: 'The request timed out. Please refresh the page and try again!',
     apiRequestFailed: 'The request failed. Please try again later!',
-    networkException: 'No Internet connection. ',
+    networkException: 'No Internet connection.',
     networkExceptionMsg: 'No Internet connection. Make sure Wi-Fi is turned on, then try again. ',
 
     errMsg401: 'Login has timed out. Please login again.',
@@ -22,7 +22,7 @@ export default {
     errMsg500: 'Server error. Please contact the support team!',
     errMsg501: 'No Internet connection.',
     errMsg502: 'Network error!',
-    errMsg503: 'The service is unavailable. The server is temporarily overloaded or maintained!',
+    errMsg503: 'The service is unavailable due to temporarily overloaded or maintained!',
     errMsg504: 'Network timeout!',
     errMsg505: 'The http version does not support the request!',
     disbandTeamTips: 'Team not exist',
@@ -99,7 +99,7 @@ export default {
     passwordValidationError: 'Incorrect password format',
 
     // notify
-    loginSuccessTitle: 'Login successful',
+    loginSuccessTitle: 'Login successfully',
     loginSuccessDesc: 'Welcome back',
 
     // placeholder
@@ -138,7 +138,7 @@ export default {
     signupSuccessFeedDescription: 'Registration almost done! Check your email!',
     signupSuccessFeedDescription2: 'Already approved?',
     pwdTips: 'Password must contain:',
-    pwdRules1: '8-64 words',
+    pwdRules1: '8-64 characters',
     pwdRules2: 'Number',
     pwdRules3: 'Letter',
     agreeToTips: 'Registration means that I agree to the BasicAI',

@@ -1,10 +1,10 @@
 export default {
-  createSuccess: 'It was created successfully.',
-  editSuccess: 'It was edited successfully.',
-  deleteSuccess: 'It was deleted successfully.',
-  renameSuccess: 'It was renamed successfully.',
-  restoreSuccess: 'It was restored successfully.',
-  moveSuccess: 'It was moved successfully.',
-  rerunSuccess: ' It was reran successfully.',
+  createSuccess: 'Created successfully',
+  editSuccess: 'Edited successfully.',
+  deleteSuccess: 'Deleted successfully.',
+  renameSuccess: 'Renamed successfully.',
+  restoreSuccess: 'Restored successfully.',
+  moveSuccess: 'Moved successfully.',
+  rerunSuccess: 'Reran successfully.',
   success: 'Successful',
 };

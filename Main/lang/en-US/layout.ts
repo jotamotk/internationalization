@@ -50,8 +50,8 @@ export default {
     minute: 'Minute',
 
     operatingTitle: 'Successful!',
-    operatingContent: 'The copy is successful!',
-    resetSuccess: 'Successfully reset!',
+    operatingContent: 'Copied successful!',
+    resetSuccess: 'Rseset successfully!',
 
     copyBtn: 'Copy',
     clearBtn: 'Clear cache and to the login page',

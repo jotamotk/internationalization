@@ -119,9 +119,9 @@ export default {
 
   warning: 'Warning',
 
-  authority: "You don't have the permission, please contact admin",
-  updateSuccess: 'Update Success',
-  pwdDiffError: 'The two passwords entered are different',
+  authority: "You don't have the permission. Please contact support team",
+  updateSuccess: 'Updated successful',
+  pwdDiffError: 'The two passwords you entered do not match.',
 
   yesText: 'Yes',
   noText: 'No',
@@ -137,7 +137,7 @@ export default {
   characterLengthLimit: 'Character length should be no more than {length}.',
 
   // TODO 英文
-  operator: '操作人',
-  operateTime: '操作时间',
+  operator: 'Operator',
+  operateTime: 'Operation time',
   actions: 'Actions',
 };
