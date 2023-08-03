@@ -6,7 +6,7 @@ export default {
   emptyClassification: 'Empty Classification',
   // 新建 ontology
   createHolder: 'Enter name…',
-  maxLength: 'The character length should not exceed 256',
+  maxLength: 'The character length should not exceed 255',
   createOntology: 'Create Ontology',
   ontologyName: 'Ontology Name',
   ontologyType: 'Ontology Type',
@@ -30,7 +30,7 @@ export default {
   // 搜索字段
   sort: {
     name: 'Item Name',
-    creationTime: 'Created Date',
+    creationTime: 'Creation Date',
   },
   // 卡片列表
   card: {
@@ -182,20 +182,20 @@ export default {
     inputToSearch: 'Input to Search',
     copyClass: 'Copy Class from Ontology Center',
     copyClassification: 'Copy Classification from Ontology Center',
-    copyPlaceholder: 'There is no ontology available for this type of dataset. You can go to ',
+    copyPlaceholder: 'There is no Ontology available for this type of dataset. You can proceed to ',
     copyOntologyCenter: 'Ontology Center ',
     copyToCreate: 'to create a new one.',
   },
   sync: {
     saveToOntology: 'Save to Ontology Center',
     selectOntology: 'Select an Ontology to save into',
-    noOntology: 'There is no ontology available for this type of dataset. Please create a new one.',
+    noOntology: 'There is no Ontology available for this type of dataset. Please create a new one.',
     createAndSync: 'Create and Sync',
     successCreated: 'Successfully created and synchronized',
     classConflictTip:
       'Some Classes already exist in the destination Ontology. To resolve these conflicts, please choose either to keep the destination or to replace the destination with new Classes.',
     classificationConflictTip:
-      'Some Classifications already exist in the destination ontology. To resolve these conflicts, please choose either to keep the destination or to replace the destination with new Classifications.',
+      'Some Classifications already exist in the destination Ontology. To resolve these conflicts, please choose either to keep the destination or to replace the destination with new Classifications.',
   },
   conflict: {
     tips1:
@@ -242,16 +242,16 @@ export default {
     tip: 'Attributes and constraints of the copied class will be applied to others.',
     uploadByExcel: 'Upload by excel',
     template: 'Template',
-    addSuccess: 'Added ({number}) classes successfully',
+    addSuccess: 'Added ({number}) Classes successfully',
     addSuccessSome:
-      ' Successfully added ({successNum}) classes, but encountered issues while adding ({failNum}) classes.',
-    addFail: 'Fail to fetch information from your Excel, please check your file',
-    overExcelToast: 'We can only add up to 999 rows at once',
-    emptyToolType: "ToolType can't be empty",
+      '({successNum}) Classes were added successfully, but issues were encountered when adding ({failNum}) Classes.',
+    addFail: 'Failed to fetch information from your Excel file. Please check your file.',
+    overExcelToast: 'A maximum of 999 rows can be added at once',
+    emptyToolType: "Tool Type can't be empty",
     duplicatedName: "Class name can't be duplicated",
-    successCopied: 'Copied ({number}) classes successfully',
+    successCopied: '({number}) Classes were copied successfully',
     successCopiedPart:
-      'Successfully copied ({successNum}) classes, but encountered issues while copying ({failNum}) classes.',
-    failCopied: 'Fail to copy classes',
+      '({successNum}) Classes were copied successfully, but issues were encountered when copying ({failNum}) Classes.',
+    failCopied: 'Failed to Copy Classes',
   },
 };

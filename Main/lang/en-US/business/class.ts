@@ -5,7 +5,7 @@ export default {
   classification: 'Classification',
   classifications: 'Classifications',
   createClass: 'Create Class',
-  classEmptyTip: 'There are no Classes in this dataset yet',
+  classEmptyTip: 'There are no Class in this dataset yet',
 
   createNewClass: 'Create New Class',
   editClass: 'Edit Class',

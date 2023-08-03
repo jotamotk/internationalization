@@ -463,7 +463,7 @@ export default {
     radius: 'Radius(m)',
   },
   operateHistory: {
-    title: 'Work flow and result version',
+    title: 'Workflow and Result Version',
     dataId: 'Data ID',
     dataName: 'Data Name',
   },
