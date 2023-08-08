@@ -1,4 +1,4 @@
 export default {
   team: '팀',
-  group: 'Group',
+  group: '그룹',
 };

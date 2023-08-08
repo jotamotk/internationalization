@@ -1,9 +1,9 @@
 import { ILocale } from './type';
 
 const ko: ILocale = {
-  versionTipTitle: '🎆Version updated',
+  versionTipTitle: '🎆버전 업데이트',
   versionTipContent:
-    'Our tool has been updated to the latest version. To avoid data inconsistency, we strongly recommend that you save your data, close the current page, and then restart it.',
+    '최신 버전으로 업데이트되었습니다. 데이터 불일치를 방지하려면 데이터를 저장하고 현재 페이지를 닫은 후 다시 시작하는 것이 좋습니다.',
   'load-resource-error': '리소스 로드 오류',
   'load-object-error': '결과 로드 오류',
   'load-classification-error': '분류 로드 오류',
@@ -86,7 +86,7 @@ const ko: ILocale = {
   'data-classification-invalid': '데이터에는 분류가 필요합니다. 먼저 수정해야 합니다.',
   'datas-classification-invalid': '프레임 {{n}} 에는 분류가 필요합니다. 먼저 수정해야 합니다.',
   'msg-dataflow-qaerror':
-    'Your results have violated mandatory QA rules. Are you sure you want to save this result?',
+    '결과가 필수 QA 규칙을 위반했습니다. 이 결과를 저장하시겠습니까?',
 };
 
 export { ko };

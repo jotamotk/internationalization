@@ -8,7 +8,7 @@ export default {
   loadingText: 'Loading...',
   saveText: '저장',
   delText: '삭제',
-  trashText: 'Move To Trash',
+  trashText: '삭제',
   resetText: '리셋',
   renameText: '이른 병경',
   restoreText: 'Rename',
@@ -37,8 +37,8 @@ export default {
   fromText: 'From',
   toText: 'To',
   selectedText: '선택됨',
-  selectText: 'Select',
-  downloadText: 'Download',
+  selectText: '선택',
+  downloadText: '다운로드',
   viewText: '보기',
   // TODO 韩语
   minText: 'min',
@@ -63,7 +63,7 @@ export default {
   back: '이전',
 
   exportText: '도출',
-  exportHistoryText: 'Export History',
+  exportHistoryText: '도출 기록',
 
   // TODO 韩语
   light: 'Light',
@@ -80,7 +80,7 @@ export default {
   },
   action: {
     selectAll: '모두 선택',
-    selectAllLoaded: 'Select All Loaded',
+    selectAllLoaded: '로드된 모든 것 선택',
     unselectAll: '모두 선택 취소',
     claim: '수령',
     viewHistory: '기록',
@@ -94,7 +94,7 @@ export default {
     restart: '다시 시작',
     resume: '계속',
     // TODO 韩语
-    release: 'Release',
+    release: '리릴스',
     submit: '제출',
     pass: '통과',
     reject: '반려',
@@ -113,7 +113,7 @@ export default {
     failure: '고장',
     running: '실행 중',
     // TODO 韩语
-    stopped: 'Stopped',
+    stopped: '정지됨',
     successWithError: 'Success with Error',
     disabled: '불가',
     notActive: '비정상',
@@ -139,11 +139,11 @@ export default {
   copyText: '복사',
   docs: '문서',
 
-  pleaseInput: 'Please input {holder}',
-  pleaseSelect: 'Please select {holder}',
-  characterLengthLimit: 'Character length should be no more than {length}.',
+  pleaseInput: '{holder}을/를 입력하세요.',
+  pleaseSelect: '{holder}을/를 선택하세요.',
+  characterLengthLimit: '문자 길이는{length} 초과해야 합니다.',
   // TODO 韩文
-  operator: '操作人',
-  operateTime: '操作时间',
+  operator: '작업자',
+  operateTime: '작업시간',
   actions: '작업',
 };

@@ -48,9 +48,9 @@ const ko: ILocale = {
 
   msgSwitchInstance: '인스턴스 결과 보기/편집 모드로 전환되었습니다',
   msgSwitchSegmentation: '세그멘테이션 결과 보기/편집 모드로 전환되었습니다',
-  msgTotalN: 'Comment points:{{n}}',
-  msgErrN: 'Comment error points:{{n}}',
-  btnNoRepeat: 'No duplicate',
+  msgTotalN: '코멘트 포인트 수:{{n}}',
+  msgErrN: '코멘트 에로 포인트 수:{{n}}',
+  btnNoRepeat: '중복 없음',
 
   labelWithoutTask: '타스크 없음',
   labelGroundTruth: '지상 진실',

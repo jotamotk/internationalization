@@ -3,8 +3,8 @@ import { ILocale } from './type';
 const ko: ILocale = {
   'title-frame': '{{index}}프레임',
   'series-frame': '연속 프레임',
-  'rect-title': 'Rect',
-  'box-title': 'Box',
+  'rect-title': '사각형',
+  'box-title': '박스',
   'cloud-object': '포인트 클라우드',
   'image-object': '이미지{{index}} 객체({{type}})',
   checked: '확인됨',

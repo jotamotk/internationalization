@@ -1,6 +1,6 @@
 export default {
   // TODO 韩语
-  unResolvedData: 'UnResolved Data',
+  unResolvedData: '해결할 데이터',
   createDataset: '데이터셋 생성',
   datasetName: '데이터셋 이름',
   datasetType: '데이터셋 유형',

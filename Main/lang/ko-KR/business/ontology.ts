@@ -26,8 +26,8 @@ export default {
   hasBeenRenamed: '이름이 변경되었습니다.',
   hasExist: ' 이(가) 이미 있습니다. 이름을 변경하십시오.',
   // TODO 韩语
-  Instruction: 'Instruction',
-  QAOptional: 'QA Optional',
+  Instruction: '설명',
+  QAOptional: 'QA 항목',
   // 搜索字段
   sort: {
     name: '아이템 이름',
@@ -237,22 +237,22 @@ export default {
     modelMapError: '클래스를 선택하세요.',
   },
   copyClass: {
-    copy: 'Copy',
-    copiedSuccessfully: 'Copied successfully',
-    copyMany: 'Copy Many',
-    tip: 'Attributes and constraints of the copied class will be applied to others.',
-    uploadByExcel: 'Upload by excel',
-    template: 'Template',
-    addSuccess: 'Added ({number}) classes successfully',
+    copy: '복사',
+    copiedSuccessfully: '복사 성공',
+    copyMany: '다중 복사',
+    tip: '복사된 클래스의 속성과 제약 조건이 다른 클래스에 적용됩니다.',
+    uploadByExcel: '엑셀로 업로드하기',
+    template: '템플릿',
+    addSuccess: '클래스 {number}개가 추가 성공되었습니다.',
     addSuccessSome:
-      ' Successfully added ({successNum}) classes, but encountered issues while adding ({failNum}) classes.',
-    addFail: 'Fail to fetch information from your Excel, please check your file',
-    overExcelToast: 'We can only add up to 999 rows at once',
-    emptyToolType: "ToolType can't be empty",
-    duplicatedName: "Class name can't be duplicated",
-    successCopied: 'Copied ({number}) classes successfully',
+      '클래스{successNum}개가 추가 성공되었지만 클래스{failNum}개가 추가 중 문제가 발생했습니다.',
+    addFail: 'Excel에서 정보를 가져오지 못했습니다. 파일을 확인해주세요.',
+    overExcelToast: '한 번에 최대 999행만 추가할 수 있습니다.',
+    emptyToolType: "툴 유형은 비워둘 수 없습니다",
+    duplicatedName: "클래스 이름은 중복될 수 없습니다.",
+    successCopied: '클래스 {number}개가 복사 성공되었습니다.',
     successCopiedPart:
-      'Successfully copied ({successNum}) classes, but encountered issues while copying ({failNum}) classes.',
-    failCopied: 'Fail to copy classes',
+      '클래스{successNum}개가 복사 성공되었지만 클래스{failNum}개가 복사 중 문제가 발생했습니다.',
+    failCopied: '클래스 복사 실패',
   },
 };

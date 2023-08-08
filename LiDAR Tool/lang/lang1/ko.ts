@@ -98,12 +98,12 @@ const ko: ILocale = {
   'label-model': '모델',
   'label-ground': '수평선',
   'label-distance-m': '거리',
-  msg_polygon_valid: 'A polygon has at least three points',
-  msg_polyline_valid: 'A polyline has at least two points',
+  msg_polygon_valid: '폴리곤은 포인트가 최소 3개 포함',
+  msg_polyline_valid: '폴리라인은 포인트가 최소 2개 포함',
   'label-interpolation': '보간',
   'label-interpolation-track': '보간 추적',
-  'label-selected-frame': 'Selected Frames',
-  'label-all-frame': 'All Frames',
+  'label-selected-frame': '선택된 프레임',
+  'label-all-frame': '모든 프레임',
   'msg-selected-frame-empty': '프레임을 선택하여 추적하세요.',
 };
 
