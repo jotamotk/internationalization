@@ -34,7 +34,7 @@ const ko: ILocale = {
   warn_selectClass: '클래스를 하나 이상 선택하십시오!',
   error_RunModel: '모델 실행 오류',
   title_info: '정보',
-  title_basic: 'Basic',
+  title_basic: '보통',
   title_3d: '3D',
   title_2d: '2D',
   title_ok: '확인',

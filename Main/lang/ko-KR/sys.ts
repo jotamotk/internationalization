@@ -96,9 +96,9 @@ export default {
     continueButton: '계속',
     joinButton: '가입',
     // TODO 韩语
-    rememberMe: 'Remember me',
-    forgetPassword: 'Forget Password?',
-    otherSignIn: 'Sign in with',
+    rememberMe: '너를 기억하기',
+    forgetPassword: '비밀번호를 잊으셨나요?',
+    otherSignIn: '다른 방식으로 등룩하기',
 
     passwordValidationError: '암호 형식이 잘못되었습니다.',
 
@@ -171,41 +171,42 @@ export default {
     },
     // TODO 韩文
     forget: {
-      forgetPassword: ' Forget password ?',
-      notAMember: 'Not a member?',
+      forgetPassword: '비밀번호를 잊으셨나요?',
+      notAMember: '멤버가 아닙니까?',
       resubmitEmail:
-        'This link has been used to change your password. Please resubmit your new email address',
-      sendToTheEmail: 'We will send the reset password link to the following email address :',
+        '이 링크는 비밀번호 변경에 사용되었습니다. 새 이메일 주소를 다시 제출해주세요',
+      sendToTheEmail: '비밀번호 재설정 링크를 다음 이메일 주소로 보내드리겠습니다:',
       Oops: 'Oops!',
-      wrongEmail: 'wrong email',
-      resend: 'Resend',
+      wrongEmail: '잘못된 이메일입니다.',
+      resend: '다시 보내기',
     },
   },
   team: {
-    companyName: 'Company Name',
-    country: 'Country and Region',
-    businessEmail: 'Business Email',
-    verifyCode: 'Verify Code',
-    verify: 'Verify',
-    continue: 'Continue',
-    manageTeams: 'Manage Teams',
-    upgradeNow: 'Upgrade Now',
+companyName: '회사 이름',
+country: '국가 및 지역',
+businessEmail: '기업 이메일',
+verifyCode: '인증 코드',
+verify: '인증',
+continue: '계속하기',
+manageTeams: '팀 관리',
+upgradeNow: '지금 업그레이드하기',
 
-    businessTip:
-      'Please note that each domain in the enterprise email system can only create up to 5 teams for free.',
-    maxTeam:
-      'You seems have reached the maximum limit of 5 teams for your enterprise email. To create more teams, please upgrade to our premium plan or delete existing teams to free up space.',
-    validEmail: 'Please enter a valid email address.',
-    enterpriseName: 'Please enter Enterprise email',
-    verifyExpired: 'The verification code has expired. Please request a new code and try again.',
-    verifyError: 'Oops! The verification code you entered is incorrect. Please try again.',
-    verifySent: 'A verification code has been sent to your email,please enter the code below',
-    verifyEmail1: 'Please include @ in your email address',
-    verifyEmail2: 'Please enter the content before/after “{value}”',
-  },
-  contact: {
-    hey: 'Hey there!',
-    tip: "We've got a fun and friendly Slack community where you can communicate with us, share your ideas, and provide feedback. Click the button below to be redirected to our Slack channel. We'd love to have you onboard!",
-    takeMeToSlack: 'Take me to Slack!',
+businessTip:
+  '기업 이메일 시스템의 각 도메인은 무료로 최대 5개의 팀을 생성할 수 있음을 참고해주세요.',
+maxTeam:
+  '기업 이메일로 최대 5개의 팀 생성 가능한 제한을 초과한 것으로 보입니다. 더 많은 팀을 생성하려면 프리미엄 요금제로 업그레이드하거나 기존 팀을 삭제하여 공간을 확보하십시오.',
+validEmail: '유효한 이메일 주소를 입력해주세요.',
+enterpriseName: '기업 이메일을 입력해주세요.',
+verifyExpired: '인증 코드가 만료되었습니다. 새로운 코드를 요청한 후 다시 시도해주세요.',
+verifyError: '실폐! 입력한 인증 코드가 올바르지 않습니다. 다시 시도해주세요.',
+verifySent: '인증 코드가 이메일로 전송되었습니다. 아래에 코드를 입력해주세요.',
+verifyEmail1: '이메일 주소에 @를 포함해주세요.',
+verifyEmail2: '“{value}” 이전/이후의 내용을 입력해주세요.',
+},
+contact: {
+hey: '안녕하세요!',
+tip: '재미있고 친근한 Slack 커뮤니티에 참여해주세요. 우리와 소통하고 아이디어를 공유하며 피드백을 제공할 수 있습니다. 아래 버튼을 클릭하여 Slack 채널로 이동하실 수 있습니다. 참여해주시면 감사하겠습니다!',
+takeMeToSlack: 'Slack으로 이동하기!',
+
   },
 };

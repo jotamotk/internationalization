@@ -83,13 +83,13 @@ export default {
   },
   time: {
     // TODO 韩语
-    before: ' ago',
-    after: ' after',
-    just: 'just now',
-    seconds: ' seconds',
-    minutes: ' minutes',
-    hours: ' hours',
-    days: ' days',
+    before: ' 전',
+    after: ' 후',
+    just: '방금',
+    seconds: ' 초',
+    minutes: ' 분',
+    hours: ' 시간',
+    days: ' 일',
   },
   tree: {
     selectAll: '모두 선택',

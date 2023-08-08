@@ -32,7 +32,7 @@ export default {
     syncTable: '테이블 동기화',
     runId: '실행 Id',
     datasetName: '데이터셋 이름',
-    createdAt: 'Created At',
+    createdAt: '생성 시간',
     status: '상태',
     progress: '진행',
     actions: '작업',

@@ -27,15 +27,15 @@ const ko: ILocale = {
     // SampleMsg
     msgSample:
         '이제 샘플링되지 않은 프레임을 보고 있습니다. 이 프레임의 모든 설명은 샘플링 정확도에서 계산되지 않습니다.',
-    infoPointPercent: '세그먼테이션:{{n}}% by Point',
-    infoObjectPercent: '인스턴스:{{n}}% by Object',
-    sampleFilterTitle: 'Accuracy in',
+    infoPointPercent: '세그먼테이션:{{n}}% 포인트별로',
+    infoObjectPercent: '인스턴스:{{n}}% 객체별로',
+    sampleFilterTitle: '정확률',
     // Status
     titleAnnotate: '작업',
     titleReview: '리뷰',
     titleAcceptance: '검수',
     titleQA: 'QA',
-    titleView: 'View',
+    titleView: '보기',
     titleModify: '수정',
     titlePausedFor: '일시 중지된 시간',
     titleDueIn: '예정일',

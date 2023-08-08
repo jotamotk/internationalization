@@ -33,11 +33,11 @@ export default {
     deleted: '삭제됨',
   },
   detail: {
-    viewAllInStudio: 'Studio에서 모두 보기',
+    viewAllInStudio: '툴에서 모두 보기',
     viewAllInACC: 'ACC에서 모두 보기',
     viewAllInQA: 'QA에서 모두 보기',
     checked: '체크됨',
-    unChecked: '체크 안 됨',
+    unChecked: '미체크',
     removeFromTask: '타스크에서 제거',
     deleteTitle: '이 샘플 결과를 삭제하시겠습니까?',
     deleteDesc: '샘플 결과를 삭제해도 오리진 데이터 및 작업에 영향을 미치지 않습니다.',
@@ -74,7 +74,7 @@ export default {
     preview: '미리보기',
     ViewInQA: 'QA에서 보기',
     ViewInACC: 'ACC에서 보기',
-    ViewInStudio: 'Studio에서 보기',
+    ViewInStudio: '툴에서 보기',
     empty: '현재 작업할 수 있는 데이터가 없습니다.',
   },
   create: {
@@ -106,7 +106,7 @@ export default {
     pleaseSelectAData: '데이터셋을 선택하세요',
     selectAResult: '결과를 선택하세요',
     cancelOrClearAll: '취소/모두 지우기',
-    regroupSceneForWorkers: '씬 재편지',
+    regroupSceneForWorkers: '씬 재몪지',
     every: '데이터',
     dataAsaScene: '개 씩 한 씬으로',
     regroupPopover: '이 작업에만 영향을 미치며 데이터셋의 모든 씬은 수정되지 않습니다.',
@@ -196,7 +196,7 @@ export default {
     ontology: '온톨로지',
     instruction: '설명',
     workflow: '워크플로우',
-    QaOptional: 'QA Optional',
+    QaOptional: 'QA 항목',
   },
   setting: {
     classTips:
@@ -220,8 +220,8 @@ export default {
     admins: '관리자',
     progress: '진행률',
     ongoingData: '진행 중인 데이터',
-    workflowStage: 'Workflow Stage',
-    status: 'Status',
+    workflowStage: '작업 단계',
+    status: '상태',
 
     // tips
     inReview: '리뷰 중',
@@ -236,7 +236,7 @@ export default {
     searchText: '아이디 또는 이름 검색',
   },
   listModal: {
-    copySuccessfully: 'Task {name} copied successfully',
+    copySuccessfully: '타스크 {name} 복사 성공',
     warning: '경고',
     goingTo: '획인하시겠습니까?',
     confirmOption: '확인하면',
@@ -296,15 +296,15 @@ export default {
     notClaimed: '수령되지 않음',
     working: '작업 중',
     submitted: '제출',
-    rejected: 'Rejected',
+    rejected: '반려',
     segmentationPoint: '세그먼테이션 포인트',
     segmentationData: '세그먼테이션 데이터',
-    segmentationObject: 'Segmentation Object',
+    segmentationObject: '세그먼테이션 객체',
     // TODO 韩文
     imgCardAccuracy: {
-      IObject: 'I-Object',
-      SPoint: 'S-Point',
-      SObject: 'S-Object',
+      IObject: '인스턴스-박스',
+      SPoint: '세그멘트-포인트',
+      SObject: '세그멘트-박스',
     },
   },
   countdown: {
@@ -375,7 +375,7 @@ export default {
     dataStatus: '데이터 상태',
     workflowStatus: '작업 단계',
     // TODO 韩语
-    workflowStage: 'Workflow Stage',
+    workflowStage: '작업 단계',
     AssigneeAnnotator: '작업자',
     Activities: '활동',
     sampling: '샘플링',
@@ -408,16 +408,16 @@ export default {
     stageStatus: '단계 상태',
     workingByOthers: '다른 작업자 작업중',
     lock: {
-      occupiedBy: 'Occupied by',
-      occupiedDataCount: 'Occupied Data Count',
-      selectRecord: 'please select a record',
+      occupiedBy: '작업자',
+      occupiedDataCount: '데이터 수',
+      selectRecord: '기록을 선택하세요.',
     },
-    addDataSuccessfully: 'Add data successfully',
+    addDataSuccessfully: '데이터 추가 성공',
     remove: {
       removeData:
-        "You are going to remove {num} data from the task. Once removed, they'll no longer be worked in the task.",
-      removeSuccess: '{num} data removed from the task.',
-      removeFailure: "{num} failed, because they're already claimed.",
+        "태스크에서 {num}개의 데이터를 삭제하려고 합니다. 한 번 삭제하면 해당 데이터들은 더 이상 해당 태스크에서 작업되지 않습니다.",
+      removeSuccess: '{num} 개의 데이터가 태스크에서 삭제되었습니다.',
+      removeFailure: "{num} {num}개의 데이터가 이미 사용 중이기 때문에 삭제에 실패했습니다.",
     },
   },
   taskSetting: {
@@ -427,12 +427,12 @@ export default {
     taskCompleted: '작업 완료',
     viewInNewTab: '새 창에서 보기',
     // TODO 韩文
-    radius: 'Radius(m)',
+    radius: '반지름(m)',
   },
   // TODO 韩文
   operateHistory: {
-    title: 'Work flow and result version',
-    dataId: 'Data ID',
-    dataName: 'Data Name',
+    title: '워크플로우 맟 결과 버전',
+    dataId: '데이터 ID',
+    dataName: '데이터 이름',
   },
 };

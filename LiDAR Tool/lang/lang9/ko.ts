@@ -9,7 +9,7 @@ const ko: ILocale = {
     'title-show': '보이기',
     'title-edit': '편집',
     'title-delete': '삭제',
-    'title-annotation': 'Has annotation',
+    'title-annotation': '결과 있음',
     'title-invisible': '보이지 않음',
     'title-checked': '확인됨',
     'title-unchecked': '확인되지 않음',
